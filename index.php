@@ -34,7 +34,7 @@
           "postalCode":"46001",
           "streetAddress":"Calle Garrigues nº17, 1er Piso, 2ª Puerta",
           "telephone":"+34 961 047 508",
-          "url":"www.guarchabogados.com"
+          "url":"http://www.guarchabogados.com/"
         },
         "geo":{
           "@type":"GeoCoordinates",
@@ -55,7 +55,8 @@
         }]
         "alternateName":"Guarch Abogados valencia",
         "alumni":"Alberto Guarch",
-        "brand":"Guarch abogados"
+        "brand":"Guarch abogados",
+        "image": "http://guarchabogados.com/images/logoW.png"
       }
     </script>
     <script>
@@ -419,11 +420,6 @@
                   </li>
                   <li>
                     Teléfono: <span itemprop="telephone">+34 961 047 508</span>
-                  </li>
-                  <li>
-                    <span itemprop="openingHours" datetime="Lu,Vi 09:00-20:00">
-                    Lunes a Viernes 9am-8pm
-                    </span>
                   </li>
               </ul>
             </address>
