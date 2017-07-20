@@ -17,6 +17,9 @@
       {
         "@context": "http://schema.org/",
         "@type": "LegalService",
+          "name": "Guarch Abogados",
+          "logo": "images/logoW.png",
+          "image": "images/logoW.png",
           "address": {
             "@type": "PostalAddress",
             "addressCountry":"Spain",
