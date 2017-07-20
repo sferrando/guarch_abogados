@@ -52,7 +52,7 @@
           ],
           "opens": "09:00",
           "closes": "20:00"
-        }]
+        }],
         "alternateName":"Guarch Abogados valencia",
         "alumni":"Alberto Guarch",
         "brand":"Guarch abogados",
