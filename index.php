@@ -194,7 +194,7 @@
           <div class="slide-2"></div>
           <div class="hero">
             <hgroup>
-              <h1><IMG style= "max-width: 100%; margin-bottom:15px" SRC="images/logoW.png"/></h1>
+              <h1><img itemprop="image" style= "max-width: 100%; margin-bottom:15px" src="images/logoW.png"/></h1>
               <h3>NOS ESFORZAMOS POR TÍ</h3>
             </hgroup>
             <a href="#map"> <button class="btn btn-hero btn-lg" role="button">Nuestras oficinas</button></a>
@@ -204,7 +204,7 @@
           <div class="slide-3"></div>
           <div class="hero">
             <hgroup>
-              <h1><IMG style= "max-width: 100% ; margin-bottom:15px" SRC="images/logoW.png"/></h1>
+              <h1><img style= "max-width: 100% ; margin-bottom:15px" src="images/logoW.png"/></h1>
               <h3>TU MEJOR opción</h3>
             </hgroup>
             <a href="#contact"> <button class="btn btn-hero btn-lg" role="button">Ir al formulario</button></a>
@@ -433,7 +433,7 @@
               </p>
             </div>
             <div class="SeoHiddenData">
-              <span itemprop="url">www.guarchabogados.com</span>
+              <span itemprop="url">http://www.guarchabogados.com</span>
               <span itemprop="alternateName">Guarch abogados valencia</span>
               <span itemprop="brand">Guarch abogados</span>
             </div>
