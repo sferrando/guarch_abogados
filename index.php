@@ -401,7 +401,7 @@
                     <span itemprop="addressLocality"> Valencia, España</span>
                   </li>
                   <li>
-                    Teléfono: <span itemprop="telephone"> +34 961 047 508</span>
+                    Teléfono: <span itemprop="telephone">+34 961 047 508</span>
                   </li>
                   <li>
                     <span itemprop="openingHours" datetime="Lu,Vi 09:00-20:00">
@@ -415,7 +415,7 @@
               <h4>CONTÁCTANOS</h4>
               <p>Puedes enviarnos un correo a nuestro correo electronico:
               <li>
-                Email : <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email"> contacto@guarchabogados.com </span></a>
+                Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email"> contacto@guarchabogados.com </span></a>
               </li>
               </p>
             </div>
