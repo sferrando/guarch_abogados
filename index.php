@@ -17,28 +17,45 @@
       {
         "@context": "http://schema.org/",
         "@type": "LegalService",
-          "name": "Guarch Abogados",
-          "url": "www.guarchabogados.com",
-          "logo": "http://guarchabogados.com/images/logoW.png",
-          "image": "http://guarchabogados.com/images/logoW.png",
-          "address": {
-            "@type": "PostalAddress",
-            "addressCountry":"Spain",
-            "addressLocality":"Valencia",
-            "addressRegion":"Valencia",
-            "availableLanguage":"Spanish, English",
-            "contactOption":"email, telephone",
-            "email":"contacto@guarchabogados.com",
-            "hoursAvailable":"Lu,Vi 09:00-20:00",
-            "name":"Guarch Abogados",
-            "postalCode":"46001",
-            "streetAddress":"Calle Garrigues nº17, 1er Piso, 2ª Puerta",
-            "telephone":"+34 961 047 508",
-            "url":"www.guarchabogados.com"
-          },
-          "alternateName":"Guarch Abogados valencia",
-          "alumni":"Alberto Guarch",
-          "brand":"Guarch abogados"
+        "@id":"http://www.guarchabogados.com/",
+        "name": "Guarch Abogados",
+        "url": "http://www.guarchabogados.com/",
+        "logo": "http://guarchabogados.com/images/logoW.png",
+        "image": "http://guarchabogados.com/images/logoW.png",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry":"Spain",
+          "addressLocality":"Valencia",
+          "addressRegion":"Valencia",
+          "availableLanguage":"Spanish, English",
+          "contactOption":"email, telephone",
+          "email":"contacto@guarchabogados.com",
+          "name":"Guarch Abogados",
+          "postalCode":"46001",
+          "streetAddress":"Calle Garrigues nº17, 1er Piso, 2ª Puerta",
+          "telephone":"+34 961 047 508",
+          "url":"www.guarchabogados.com"
+        },
+        "geo":{
+          "@type":"GeoCoordinates",
+          "latitude":39.4688062,
+          "longitude":-0.374473
+        },
+        "openingHoursSpecification": [{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "20:00"
+        }]
+        "alternateName":"Guarch Abogados valencia",
+        "alumni":"Alberto Guarch",
+        "brand":"Guarch abogados"
       }
     </script>
     <script>
