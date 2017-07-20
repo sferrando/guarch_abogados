@@ -15,8 +15,30 @@
 <link href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
 
-
-
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "LegalService",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry":"Spain",
+      "addressLocality":"Valencia",
+      "addressRegion":"Valencia",
+      "availableLanguage":"Spanish, English",
+      "contactOption":"email, telephone",
+      "email":"contacto@guarchabogados.com",
+      "hoursAvailable":"Lu,Vi 09:00-20:00",
+      "name":"Guarch Abogados",
+      "postalCode":"46001",
+      "streetAddress":"Calle Garrigues nº17, 1er Piso, 2ª Puerta",
+      "telephone":"+34 961 047 508",
+      "url":"www.guarchabogados.com"
+    },
+    "alternateName":"Guarch Abogados valencia",
+    "alumni":"Alberto Guarch",
+    "brand":"Guarch abogados"
+}
+</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -114,9 +136,9 @@
 
 </head>
 <body>
+  <div itemscope itemtype="http://schema.org/LegalService">
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -124,7 +146,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" style=" margin-left:5px; font-family:'OptimusPrinceps';font-weight:normal" href="#">
+                <a itemprop="name" class="navbar-brand" style=" margin-left:5px; font-family:'OptimusPrinceps';font-weight:normal" href="#">
                     GUARCH <span style="font-size:29px; color:#575757" >  |  ABOGADOS</span></a>
             </div>
 
@@ -160,7 +182,7 @@
           <div class="slide-1"></div>
           <div class="hero">
             <hgroup>
-                <h1><IMG style= "max-width: 100%; margin-bottom:15px" SRC="images/logoW.png"/></h1>
+                <h1><img itemprop="logo" style= "max-width: 100%; margin-bottom:15px" src="images/logoW.png"/></h1>
                 <h3>SOMOS LA SOLUCIÓN</h3>
             </hgroup>
               <a href="#about"> <button class="btn btn-hero btn-lg" role="button">Conócenos</button></a>
@@ -198,20 +220,22 @@
                 <img src="images/00130.gif" >
             </div>
             <div class="col-md-6 col-sm-6 about-grid" style=" font-size:17px; padding:10px; color:#032F3E; letter-spacing: 0.2em;">
-            <p>Guarch Abogados les da la bienvenida a su página Web.
+              <div  itemprop="description">
+                <p><span itemprop="name">Guarch Abogados</span> les da la bienvenida a su página Web.
 
-                Le ofrecemos nuestros servicios para resolver cualquier problema legal que nos quiera plantear.
+                    Le ofrecemos nuestros servicios para resolver cualquier problema legal que nos quiera plantear.
 
-                Somos un despacho multidisciplinar con amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico.
+                    Somos un despacho multidisciplinar con amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico.
 
-                Atenderemos y resolveremos de la misma manera cualquier duda que nos plantee en el ámbito del Derecho de Familia, Penal, Inmobiliario, Laboral y Administrativo.
+                    Atenderemos y resolveremos de la misma manera cualquier duda que nos plantee en el ámbito del Derecho de Familia, Penal, Inmobiliario, Laboral y Administrativo.
 
-                Por último, le ofrecemos la posibilidad de la mediación como un medio de resolución del conflicto diferente y alejado de la vía judicial.
+                    Por último, le ofrecemos la posibilidad de la mediación como un medio de resolución del conflicto diferente y alejado de la vía judicial.
 
-                Darles nuestro agradecimiento por haber accedido a nuestra web y conocernos.
+                    Darles nuestro agradecimiento por haber accedido a nuestra web y conocernos.
 
-                Esperamos poder contar en breve con su confianza.
-            </p>
+                    Esperamos poder contar en breve con su confianza.
+                </p>
+              </div>
 
             </div>
             <div class="col-md-3 col-sm-3 about-grid hidden-xs">
@@ -228,17 +252,18 @@
 
 	      <!-- Wrapper for slides -->
 	      <div class="carousel-inner hidden-xs">
-	        <div class="item active">
+	        <div  class="item active">
 	           <img class="hidden-xs" src="images/e001.gif">
-	           <div class="especialidad-txt carousel-caption ">
-	             <h1>RECLAMACIÓN DE LESIONES Y DAÑOS DERIVADOS DE ACCIDENTES DE TRÁFICO</h1>
-	            <p> Despacho dedicado durante más de veinte años a la reclamación de lesiones derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.</p>
+	           <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
+	              <h1>RECLAMACIÓN DE LESIONES Y DAÑOS DERIVADOS DE ACCIDENTES DE TRÁFICO</h1>
+	              <p> Despacho dedicado durante más de veinte años a la reclamación de lesiones derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.
+                </p>
 	          </div>
 	        </div><!-- End Item -->
 
 	         <div class="item">
 	         <img class="hidden-xs" src="images/e002.gif">
-	           <div class="especialidad-txt carousel-caption ">
+	           <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
 	              <h1>DELITOS CONTRA LA SEGURIDAD VIAL - ALCOHOLEMIAS</h1>
 	              <p>Como abogados especialistas en el sector, le garantizamos la resolución más favorable para la defensa de sus intereses en relación a todo tipo de delitos contra la seguridad vial.</p>
 	          </div>
@@ -246,7 +271,7 @@
 
 	        <div class="item">
 	          <img class="hidden-xs" src="images/e003.gif">
-	           <div class="especialidad-txt carousel-caption ">
+	           <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
 	            <h1>DERECHO MATRIMONIAL</h1>
 	            <p>Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, divorcio, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
 	          </div>
@@ -254,7 +279,7 @@
 
 	        <div class="item">
 	           <img class="hidden-xs" src="images/e004.gif">
-	           <div class="especialidad-txt carousel-caption ">
+	           <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
 	            <h1>DERECHO INMOBILIARIO - DESAHUCIOS, ARRENDAMIENTOS Y CONTRATOS</h1>
 	            <p> Como despacho conocedor de la materia del Derecho inmobiliario le ofrecemos nuestros servicios para la confección de cualquier tipo de contratos relacionados con el Derecho inmobilirario, más en concreto, la confección de contratos de arrendamiento, desahucios y reclamaciones del arrendador.</p>
 	          </div>
@@ -262,7 +287,7 @@
 
 	        <div class="item">
 	          <img class="hidden-xs" src="images/e0012.gif">
-	           <div class="especialidad-txt carousel-caption ">
+	           <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
 	            <h1>DERECHO PENAL</h1>
 	            <p>Asistencia jurídica en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
 	          </div>
@@ -270,7 +295,7 @@
 
 	        <div class="item">
 	           <img class="hidden-xs" src="images/e006.gif">
-	           <div class="especialidad-txt carousel-caption ">
+	           <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
 	            <h1>RECLAMACIÓN DE IMPAGADOS</h1>
 	            <p>Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y cobro de impagados.</p>
 	          </div>
@@ -278,7 +303,7 @@
 
 	        <div class="item">
 	          <img class="hidden-xs" src="images/e007.gif">
-	           <div class="especialidad-txt carousel-caption ">
+	           <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
 	            <h1>DERECHO CIVIL</h1>
 	            <p>Conociendo de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, herencia, sucesiones.</p>
 	          </div>
@@ -286,7 +311,7 @@
 
 	        <div class="item">
 	          <img class="hidden-xs" src="images/e008.gif">
-	           <div class="especialidad-txt carousel-caption ">
+	           <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
 	            <h1>DERECHO LABORAL</h1>
 	            <p>Dentro de esta materia le ayudaremos a reclamar su indemnización por despido ante la jurisdicción Social y, en especial, la reclamación de lesiones dentro de esta rama.</p>
 	          </div>
@@ -294,7 +319,7 @@
 
 	        <div class="item">
 	          <img class="hidden-xs" src="images/e009.gif">
-	           <div class="especialidad-txt carousel-caption ">
+	           <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
 	            <h1>RECLAMACIÓN POR RESPONSABILIDAD PATRIMONIAL DE LA ADMINISTRACIÓN</h1>
 	            <p>Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
 	          </div>
@@ -302,7 +327,7 @@
 
 	        <div class="item">
 	          <img class="hidden-xs" src="images/e006.gif">
-	           <div class="especialidad-txt carousel-caption ">
+	           <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
 	            <h1>MEDIACIÓN - RESOLUCIÓN ALTERNATIVA DE CONFLICTOS </h1>
 	            <p>Ofrecemos mediación en todos los ámbitos conocidos: Mercantil-Civil, Familia, Organizaciones Complejas, Accidentes de tráfico y Penal. Tratándose de una forma menos gravosa económicamente para las partes, más rápida y más personal. </p>
 	          </div>
@@ -339,7 +364,7 @@
 
      <div class="map" ID="map" >
          <h1 style="padding: 1.2em">Dónde Estamos</h1>
-        <p><iframe style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.92229560776!2d-0.3814660839084238!3d39.47108412052732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c838a5d%3A0x8e12d7a464472964!2sCarrer+de+les+Garrigues%2C+17%2C+46001+Val%C3%A8ncia%2C+Valencia!5e0!3m2!1ses!2ses!4v1460710613745" onClick="style.pointerEvents='none'" allowfullscreen ></iframe>
+        <p><iframe itemprop="hasMap" style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.92229560776!2d-0.3814660839084238!3d39.47108412052732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c838a5d%3A0x8e12d7a464472964!2sCarrer+de+les+Garrigues%2C+17%2C+46001+Val%C3%A8ncia%2C+Valencia!5e0!3m2!1ses!2ses!4v1460710613745" onClick="style.pointerEvents='none'" allowfullscreen ></iframe>
             </p>
     </div>
 
@@ -410,19 +435,38 @@
                         <h4>DIRECCIÓN</h4>
                         <address>
                             <ul>
-                                <li>Calle Garrigues nº17</li>
-                                <li>1er Piso, 2ª Puerta</li>
-                                <li>Valencia, España</li>
-                                <li>Teléfono: +34 961 047 508</li>
+                              <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <li itemprop="streetAddress">
+                                  <span itemprop="streetAddress"> Calle Garrigues nº17
+                                    <br/> 1er Piso, 2ª Puerta </span>
+                                </li>
+                                <li>
+                                  <span itemprop="postalCode"> 46001</span>
+                                  <span itemprop="addressLocality"> Valencia, España</span>
+                                </li>
+                                <li>
+                                  Teléfono: <span itemprop="telephone"> +34 961 047 508</span>
+                                </li>
+                                <li>
+                                  <span itemprop="openingHours" datetime="Lu,Vi 09:00-20:00">
+                                    Lunes a Viernes 9am-8pm
+                                  </span>
+                                </li>
                             </ul>
                         </address>
                     </div>
                     <div class="col-md-4 col-sm-4 footer-info-grid newsletter">
                         <h4>CONTÁCTANOS</h4>
                         <p>Puedes enviarnos un correo a nuestro correo electronico:
-                            <li>Email : <a class="mail" href="mailto:alberto@guarchabogados.com">contacto@guarchabogados.com</a></li>
+                            <li>
+                              Email : <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email"> contacto@guarchabogados.com </span></a>
+                            </li>
                         </p>
-
+                    </div>
+                    <div class="SeoHiddenData">
+                      <span itemprop="url">www.guarchabogados.com</span>
+                      <span itemprop="alternateName">Guarch abogados valencia</span>
+                      <span itemprop="brand">Guarch abogados</span>
                     </div>
                     <div class="clearfix"></div>
 
@@ -434,5 +478,6 @@
                   </div>
             </div>
         </div>
+      </div>
     </body>
 </html>

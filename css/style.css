@@ -7,6 +7,24 @@
 
 /*-- Reset-Code --*/
 
+#myCarousel .nav a {
+    border-radius: 0px;
+    color: #575757;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	background-color: #C0D4E0;
+	color: white !important;
+}
+
+.SeoHiddenData{
+  visibility: hidden;
+}
+
+textarea::placeholder, input::placeholder {
+  color: white;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -720,7 +738,7 @@ figure.effect-kira:hover figcaption::before {
 
 /*-- Contact --*/
 .contact {
-	
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1034,7 +1052,7 @@ a.mail:hover {
 	height: 40px;
 	border: none;
 	text-indent: 100%;
-	
+
 }
 /*-- //Go-To-Top-Button --*/
 
@@ -1930,7 +1948,7 @@ Image credits: unsplash.com
               transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 6em;    
+    font-size: 6em;
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -1939,18 +1957,18 @@ Image credits: unsplash.com
 .fade-carousel .carousel-inner .item .hero {
     opacity: 0;
     -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s; 
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
 }
 .fade-carousel .carousel-inner .item.active .hero {
     opacity: 1;
     -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s;    
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
 }
 
 /********************************/
@@ -1982,7 +2000,7 @@ Image credits: unsplash.com
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
-.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
   height: 100vh;
@@ -1991,23 +2009,23 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
- background-image: url("http://guarchabogados.com/images/0047.jpg "); 
+ background-image: url("http://guarchabogados.com/images/0047.jpg ");
 }
 .fade-carousel .slides .slide-2 {
- background-image: url("http://guarchabogados.com/images/0045.jpg "); 
+ background-image: url("http://guarchabogados.com/images/0045.jpg ");
 }
 .fade-carousel .slides .slide-3 {
- background-image: url("http://guarchabogados.com/images/0066.jpg "); 
+ background-image: url("http://guarchabogados.com/images/0066.jpg ");
 }
 
 /********************************/
 /*          Media Queries       *
 /********************************/
 @media screen and (min-width: 980px){
-    .hero { width: 980px; }    
+    .hero { width: 980px; }
 }
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }    
+    .hero h1 { font-size: 4em; }
 }
 @font-face {
 font-family: 'OptimusPrinceps';
