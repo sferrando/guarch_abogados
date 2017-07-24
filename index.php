@@ -3,16 +3,21 @@
   <head>
     <title>Guarch Abogados | Valencia</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="title" content="Guarch Abogados | Valencia">
     <meta name="Description" content="Guarch abogados - Bufete de abogados localizado en Valencia que ofrece sus servicios para resolver cualquier problema legal que se pueda plantear.
     Despacho multidisciplinar con amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico como tambien en el ámbito del Derecho de Familia, Penal, Inmobiliario, Laboral, Administrativo y recientemente la Nulidad Matrimonial.
     También ofrecemos la posibilidad de la mediación como un medio de resolución del conflicto diferente y alejado de la vía judicial.">
+    <meta name="keywords" content="Abogados Despacho Valencia Experiencia Trafico Lesiones Derecho Familia Penal Inmobiliario Laboral Administrativo Nulidad Matrimonial">
     <meta name="owner" content="guarchabogados.com">
-    <meta property="type" content="website">
-    <meta property="url" content="https://www.guarchabogados.com">
-    <meta property="title" content="Guarch Abogados Valencia">
-    <!-- for-mobile-apps -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.guarchabogados.com/index.php">
+    <meta property="og:title" content="Guarch Abogados Valencia">
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:description" content="Guarch abogados - Bufete de abogados localizado en Valencia que ofrece sus servicios para resolver cualquier problema legal que se pueda plantear.
+    Despacho multidisciplinar con amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico como tambien en el ámbito del Derecho de Familia, Penal, Inmobiliario, Laboral, Administrativo y recientemente la Nulidad Matrimonial.
+    También ofrecemos la posibilidad de la mediación como un medio de resolución del conflicto diferente y alejado de la vía judicial.">
+    <meta property="og:image" content="http://guarchabogados.com/images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
     <script type="application/ld+json">
@@ -22,8 +27,8 @@
         "@id":"http://www.guarchabogados.com/",
         "name": "Guarch Abogados",
         "url": "http://www.guarchabogados.com/",
-        "logo": "http://guarchabogados.com/images/logoW.png",
-        "image": "http://guarchabogados.com/images/logoW.png",
+        "logo": "http://guarchabogados.com/images/logo.png",
+        "image": "http://guarchabogados.com/images/logo.png",
         "address": {
           "@type": "PostalAddress",
           "addressCountry":"Spain",
