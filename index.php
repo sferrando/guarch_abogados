@@ -156,11 +156,12 @@
           <a itemprop="name" class="navbar-brand" style=" margin-left:5px; font-family:'OptimusPrinceps';font-weight:normal" href="#">
           GUARCH <span style="font-size:29px; color:#575757" >  |  ABOGADOS</span></a>
         </div>
-        <div class="navbar-collapse collapse hover-effect" id="navbar">
+        <div class="navbar-collapse collapse" id="navbar">
           <ul>
-            <li><a href="#about"><span data-hover="NOSOTROS">NOSOTROS</span></a></li>
-            <li><a href="#map"><span data-hover="MAPA">MAPA</span></a></li>
-            <li><a href="#contact"><span data-hover="CONTACTO">CONTACTO</span></a></li>
+            <li class="navItem"><a href="#sobre-nosotros"><span data-hover="NOSOTROS">NOSOTROS</span></a></li>
+            <li class="navItem"><a href="#especialidades"><span data-hover="ESPECIALIDADES">ESPECIALIDADES</span></a></li>
+            <li class="navItem"><a href="#localizacion"><span data-hover="LOCALIZACIÓN">LOCALIZACIÓN</span></a></li>
+            <li class="navItem"><a href="#contacto"><span data-hover="CONTACTO">CONTACTO</span></a></li>
             <!--<li><a href="#features"><span data-hover="FEATURES">FEATURES</span></a></li>
               <li><a href="#gallery"><span data-hover="GALLERY">GALLERY</span></a></li>
               <li><a href="#team"><span data-hover="TEAM">TEAM</span></a></li>
@@ -184,40 +185,40 @@
           <div class="slide-1"></div>
           <div class="hero">
             <hgroup>
-              <h1><img itemprop="logo" style= "max-width: 100%; margin-bottom:15px" src="images/logoW.png"/></h1>
+              <img itemprop="logo" style= "max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo" />
               <h3>SOMOS LA SOLUCIÓN</h3>
             </hgroup>
-            <a href="#about"> <button class="btn btn-hero btn-lg" role="button">Conócenos</button></a>
+            <a href="#sobre-nosotros"> <button class="btn btn-hero btn-lg" role="button">Conócenos</button></a>
           </div>
         </div>
         <div class="item slides">
           <div class="slide-2"></div>
           <div class="hero">
             <hgroup>
-              <h1><img itemprop="image" style= "max-width: 100%; margin-bottom:15px" src="images/logoW.png"/></h1>
+              <img itemprop="image" style= "max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
               <h3>NOS ESFORZAMOS POR TÍ</h3>
             </hgroup>
-            <a href="#map"> <button class="btn btn-hero btn-lg" role="button">Nuestras oficinas</button></a>
+            <a href="#localizacion"> <button class="btn btn-hero btn-lg" role="button">Nuestras oficinas</button></a>
           </div>
         </div>
         <div class="item slides">
           <div class="slide-3"></div>
           <div class="hero">
             <hgroup>
-              <h1><img style= "max-width: 100% ; margin-bottom:15px" src="images/logoW.png"/></h1>
+              <img style= "max-width: 100% ; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
               <h3>TU MEJOR opción</h3>
             </hgroup>
-            <a href="#contact"> <button class="btn btn-hero btn-lg" role="button">Ir al formulario</button></a>
+            <a href="#contacto"> <button class="btn btn-hero btn-lg" role="button">Ir al formulario</button></a>
           </div>
         </div>
       </div>
     </div>
     <!-- About -->
-    <div class="about" id= "about" style="color:#032F3E">
+    <div class="about" id= "sobre-nosotros" style="color:#032F3E">
       <div class="container">
         <h1> Sobre Nosotros </h1>
         <div class="col-md-3 col-sm-3 about-grid hidden-xs">
-          <img src="images/00130.gif" >
+          <img src="images/00130.gif" alt="Guarch Abogados sala de reuniones">
         </div>
         <div class="col-md-6 col-sm-6 about-grid" style=" font-size:17px; padding:10px; color:#032F3E; letter-spacing: 0.2em;">
           <div  itemprop="description">
@@ -232,18 +233,18 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-3 about-grid hidden-xs">
-          <img src="images/00110.gif" alt="Corporatus">
+          <img src="images/00110.gif" alt="Guarch Abogados sala de espera">
         </div>
         <div class="clearfix"></div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="especialidades">
       <h1 style="padding: 1.2em">Nuestras Especialidades</h1>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Wrapper for slides -->
         <div class="carousel-inner hidden-xs">
           <div  class="item active">
-            <img class="hidden-xs" src="images/e001.gif">
+            <img class="hidden-xs" src="images/e001.gif" alt="Guarch Abogados Experiencia">
             <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
               <h1>RECLAMACIÓN DE LESIONES Y DAÑOS DERIVADOS DE ACCIDENTES DE TRÁFICO</h1>
               <p> Despacho dedicado durante más de veinte años a la reclamación de lesiones derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.
@@ -276,7 +277,7 @@
           </div>
           <!-- End Item -->
           <div class="item">
-            <img class="hidden-xs" src="images/e0012.gif">
+            <img class="hidden-xs" src="images/e0012.gif" alt="Guarch Abogados Atencion Telefono">
             <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
               <h1>DERECHO PENAL</h1>
               <p>Asistencia jurídica en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
@@ -284,7 +285,7 @@
           </div>
           <!-- End Item -->
           <div class="item">
-            <img class="hidden-xs" src="images/e006.gif">
+            <img class="hidden-xs" src="images/e006.gif" alt="Guarch Abogados Reuniones">
             <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
               <h1>RECLAMACIÓN DE IMPAGADOS</h1>
               <p>Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y cobro de impagados.</p>
@@ -292,7 +293,7 @@
           </div>
           <!-- End Item -->
           <div class="item">
-            <img class="hidden-xs" src="images/e007.gif">
+            <img class="hidden-xs" src="images/e007.gif" alt="Guarch Abogados despacho">
             <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
               <h1>DERECHO CIVIL</h1>
               <p>Conociendo de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, herencia, sucesiones.</p>
@@ -347,12 +348,12 @@
       <!-- End Carousel -->
     </div>
     <!-- //About -->
-    <div class="map" ID="map" >
+    <div class="map" id="localizacion" >
       <h1 style="padding: 1.2em">Dónde Estamos</h1>
       <p><iframe itemprop="hasMap" style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.92229560776!2d-0.3814660839084238!3d39.47108412052732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c838a5d%3A0x8e12d7a464472964!2sCarrer+de+les+Garrigues%2C+17%2C+46001+Val%C3%A8ncia%2C+Valencia!5e0!3m2!1ses!2ses!4v1460710613745" onClick="style.pointerEvents='none'" allowfullscreen ></iframe>
       </p>
     </div>
-    <div class="contact" id="contact">
+    <div class="contact" id="contacto">
       <div class="container">
         <h3 style="color:#373C40;">Contáctanos</h3>
         <?php if (!isset($_POST['email'])) {?>

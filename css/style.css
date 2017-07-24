@@ -6,6 +6,9 @@
 --*/
 
 /*-- Reset-Code --*/
+.navItem{
+  margin-right: 1em;
+}
 
 #myCarousel .nav a {
     border-radius: 0px;
