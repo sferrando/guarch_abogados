@@ -24,6 +24,7 @@
         "@id":"http://www.guarchabogados.com/",
         "name": "Guarch Abogados",
         "url": "http://www.guarchabogados.com/",
+        "description": "Bufete con amplia experiencia. Consúltanos sin compromiso y de forma gratuita.",
         "logo": "http://guarchabogados.com/images/logo.png",
         "image": "http://guarchabogados.com/images/logo.png",
         "address": {
