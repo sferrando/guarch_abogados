@@ -60,7 +60,16 @@
           "closes": "20:00"
         }],
         "alternateName":"Guarch Abogados valencia",
-        "alumni":"Alberto Guarch",
+        "alumni": [
+            {
+              "@type": "Person",
+              "name": "Ricardo Guarch"
+            },
+            {
+              "@type": "Person",
+              "name": "Alberto Guarch",
+            }
+        ],
         "brand":"Guarch abogados",
         "image": "http://guarchabogados.com/images/logoW.png"
       }
@@ -443,6 +452,12 @@
               <span itemprop="url">http://www.guarchabogados.com</span>
               <span itemprop="alternateName">Guarch abogados valencia</span>
               <span itemprop="brand">Guarch abogados</span>
+              <span itemprop="alumni" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name">Ricardo Guarch</span>
+              </span>
+              <span itemprop="alumni" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name">Alberto Guarch</span>
+              </span>
             </div>
             <div class="clearfix"></div>
             <div class="col-md-12 col-sm-12 footer-info-grid" >
