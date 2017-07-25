@@ -12,9 +12,7 @@
     <meta property="og:url" content="https://www.guarchabogados.com/index.php">
     <meta property="og:title" content="Guarch Abogados Valencia">
     <meta property="og:locale" content="es_ES" />
-    <meta property="og:description" content="Guarch abogados - Bufete de abogados localizado en Valencia que ofrece sus servicios para resolver cualquier problema legal que se pueda plantear.
-    Despacho multidisciplinar con amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico como tambien en el ámbito del Derecho de Familia, Penal, Inmobiliario, Laboral, Administrativo y recientemente la Nulidad Matrimonial.
-    También ofrecemos la posibilidad de la mediación como un medio de resolución del conflicto diferente y alejado de la vía judicial.">
+    <meta property="og:description" content="Bufete localizado en Valencia con amplia experiencia. Consúltanos sin compromiso y de forma gratuita.">
     <meta property="og:image" content="http://guarchabogados.com/images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
@@ -67,7 +65,7 @@
             },
             {
               "@type": "Person",
-              "name": "Alberto Guarch",
+              "name": "Alberto Guarch"
             }
         ],
         "brand":"Guarch abogados",
