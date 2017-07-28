@@ -317,22 +317,34 @@
       </div>
       <div class="contact" id="contacto">
         <div class="container">
-          <h3 style="color:#373C40;">Contáctanos</h3>
-          <div class="heading-underline"></div>
-          <form class="contact_form" method="post">
-            <div class="message">
-              <div class="col-md-6 col-sm-6 grid_6 c1">
-                <input type="text" name="name" class="text" placeholder="Nombre" required=""/>
-                <input type="text" name="email" class="text" placeholder="Email" required=""/>
-                <input type="text" name="telephone" class="text" placeholder="Telefono" required=""/>
+          <div id= 'before_send_email'>
+            <h3 style="color:#373C40;">Contáctanos</h3>
+            <div class="heading-underline"></div>
+            <form id="formulario" class="contact_form" method="post">
+              <div class="message">
+                <div class="col-md-6 col-sm-6 grid_6 c1">
+                  <input type="text" name="name" class="text" placeholder="Nombre" required=""/>
+                  <input type="email" name="email" class="text" placeholder="Email" required=""/>
+                  <input type="number" name="telephone" class="text" placeholder="Telefono" required=""/>
+                </div>
+                <div class="col-md-6 col-sm-6 grid_6 c1">
+                  <textarea name="message" placeholder="Mensaje" required=""></textarea>
+                </div>
+                <div class="clearfix"></div>
+                <input type="submit" id="envio_email" class="more_btn" value="Enviar"/>
               </div>
-              <div class="col-md-6 col-sm-6 grid_6 c1">
-                <textarea name="message" placeholder="Mensaje" required=""></textarea>
-              </div>
-              <div class="clearfix"></div>
-              <input type="submit" class="more_btn" value="Enviar"/>
-            </div>
-          </form>
+            </form>
+          </div>
+          <div id="meanwhile_send_email" style="display: none;">
+            <h2>Enviando</h2>
+            <hr>
+            <img id="spin_to_win" src="images/spinner.gif" alt="" max-width="50px" height="50px" />
+          </div>
+          <div id="after_send_email" style="display: none;">
+            <h2>Gracias por contactar con nosotros!</h2>
+            <hr>
+            <h4>Nos pondremos en contacto con usted lo antes posible</h4>
+          </div>
         </div>
       </div>
       <div class="footer">
@@ -402,3 +414,26 @@
     </div>
   </body>
 </html>
+
+<script type="text/javascript">
+$("#formulario").submit(function(e) {
+  var url = "mail.php";
+
+  $.ajax({
+          type: "POST",
+          url: url,
+          data: $("#formulario").serialize(),
+          success: function(data)
+          {
+              $("#before_send_email").hide();
+              $("#meanwhile_send_email").show();
+              setTimeout(function () {
+                $("#meanwhile_send_email").hide();
+                $("#after_send_email").show();
+              }, 3000);
+          }
+        });
+
+  e.preventDefault();
+});
+</script>

@@ -27,6 +27,21 @@
 textarea::placeholder, input::placeholder {
   color: white;
 }
+#envio_email{
+	width: 150px;
+}
+#spin_to_win{
+  width: 80px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+}
+#meanwhile_send_email{
+  padding: 10em
+}
+#after_send_email{
+  padding: 10em
+}
 
 body {
 	padding: 0;
@@ -749,7 +764,7 @@ figure.effect-kira:hover figcaption::before {
 	padding: 50px 0 75px;
 }
 
-.contact_form input[type='text'] {
+.contact_form input {
 	width: 100%;
 	border-radius: 0;
 	line-height: 22px;
@@ -1730,10 +1745,11 @@ a.mail:hover {
 		width: 100%;
 		margin-right: 0;
 	}
-	.contact_form input[type='text'] {
+	.contact_form input {
 		font-size: 12px;
 		padding: 10px;
 	}
+
 	.contact_form textarea {
 		font-size: 12px
 	}
