@@ -150,7 +150,7 @@
                 <img itemprop="logo" style="max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
                 <h3>SOMOS LA SOLUCIÓN</h3>
               </hgroup>
-              <a href="#sobre-nosotros"> <button class="btn btn-hero btn-lg" role="button">Conócenos</button></a>
+              <a href="#contacto"> <button class="btn btn-hero btn-lg" role="button">Consúltanos gratis</button></a>
             </div>
           </div>
           <div class="item slides active">
@@ -175,7 +175,6 @@
           </div>
         </div>
       </div>
-      <!--  About  -->
       <div class="about" id="sobre-nosotros" style="color:#032F3E">
         <div class="container">
           <h1> Sobre Nosotros </h1>
@@ -200,216 +199,107 @@
           <div class="clearfix"></div>
         </div>
       </div>
-      <div class="container" id="especialidades">
-        <h1 style="padding: 1.2em">Nuestras Especialidades</h1>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!--  Wrapper for slides  -->
-          <div class="carousel-inner hidden-xs">
-            <div class="item">
-              <img class="hidden-xs" src="images/e001.gif" alt="Guarch Abogados Experiencia"/>
-              <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
-                <h1>RECLAMACIÓN DE LESIONES Y DAÑOS DERIVADOS DE ACCIDENTES DE TRÁFICO</h1>
-                <p> Despacho dedicado durante más de veinte años a la reclamación de lesiones derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.
-                </p>
-              </div>
-            </div>
-            <!--  End Item  -->
-            <div class="item active">
-              <img class="hidden-xs" src="images/e002.gif"/>
-              <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
-                <h1>DELITOS CONTRA LA SEGURIDAD VIAL - ALCOHOLEMIAS</h1>
-                <p>Como abogados especialistas en el sector, le garantizamos la resolución más favorable para la defensa de sus intereses en relación a todo tipo de delitos contra la seguridad vial.</p>
-              </div>
-            </div>
-            <!--  End Item  -->
-            <div class="item">
-              <img class="hidden-xs" src="images/e003.gif"/>
-              <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
-                <h1>DERECHO MATRIMONIAL</h1>
-                <p>Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, divorcio, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
-              </div>
-            </div>
-            <!--  End Item  -->
-            <div class="item">
-              <img class="hidden-xs" src="images/e004.gif"/>
-              <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
-                <h1>DERECHO INMOBILIARIO - DESAHUCIOS, ARRENDAMIENTOS Y CONTRATOS</h1>
-                <p> Como despacho conocedor de la materia del Derecho inmobiliario le ofrecemos nuestros servicios para la confección de cualquier tipo de contratos relacionados con el Derecho inmobilirario, más en concreto, la confección de contratos de arrendamiento, desahucios y reclamaciones del arrendador.</p>
-              </div>
-            </div>
-            <!--  End Item  -->
-            <div class="item">
-              <img class="hidden-xs" src="images/e0012.gif" alt="Guarch Abogados Atencion Telefono"/>
-              <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
-                <h1>DERECHO PENAL</h1>
-                <p>Asistencia jurídica en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
-              </div>
-            </div>
-            <!--  End Item  -->
-            <div class="item">
-              <img class="hidden-xs" src="images/e006.gif" alt="Guarch Abogados Reuniones"/>
-              <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
-                <h1>RECLAMACIÓN DE IMPAGADOS</h1>
-                <p>Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y cobro de impagados.</p>
-              </div>
-            </div>
-            <!--  End Item  -->
-            <div class="item">
-              <img class="hidden-xs" src="images/e007.gif" alt="Guarch Abogados despacho"/>
-              <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
-                <h1>DERECHO CIVIL</h1>
-                <p>Conociendo de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, herencia, sucesiones.</p>
-              </div>
-            </div>
-            <!--  End Item  -->
-            <div class="item">
-              <img class="hidden-xs" src="images/e008.gif"/>
-              <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
-                <h1>DERECHO LABORAL</h1>
-                <p>Dentro de esta materia le ayudaremos a reclamar su indemnización por despido ante la jurisdicción Social y, en especial, la reclamación de lesiones dentro de esta rama.</p>
-              </div>
-            </div>
-            <!--  End Item  -->
-            <div class="item">
-              <img class="hidden-xs" src="images/e009.gif"/>
-              <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
-                <h1>RECLAMACIÓN POR RESPONSABILIDAD PATRIMONIAL DE LA ADMINISTRACIÓN</h1>
-                <p>Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
-              </div>
-            </div>
-            <!--  End Item  -->
-            <div class="item">
-              <img class="hidden-xs" src="images/e006.gif"/>
-              <div itemprop="disambiguatingDescription" class="especialidad-txt carousel-caption ">
-                <h1>MEDIACIÓN - RESOLUCIÓN ALTERNATIVA DE CONFLICTOS </h1>
-                <p>Ofrecemos mediación en todos los ámbitos conocidos: Mercantil-Civil, Familia, Organizaciones Complejas, Accidentes de tráfico y Penal. Tratándose de una forma menos gravosa económicamente para las partes, más rápida y más personal. </p>
-              </div>
-            </div>
-            <!--  End Item  -->
-          </div>
-          <!--  End Carousel Inner  -->
-          <ul class="nav nav-pills nav-justified">
-            <li data-target="#myCarousel" data-slide-to="0" class=""><a href="#">TRÁFICO<small></small></a></li>
-            <li data-target="#myCarousel" data-slide-to="1" class="active"><a href="#">ALCOHOLEMIAS<small></small></a>
-            </li>
-            <li data-target="#myCarousel" data-slide-to="2"><a href="#">MATRIMONIAL<small></small></a></li>
-            <li data-target="#myCarousel" data-slide-to="3"><a href="#">INMOBILIARIO<small></small></a>
-            </li>
-            <li data-target="#myCarousel" data-slide-to="4"><a href="#">PENAL<small></small></a>
-            </li>
-            <li data-target="#myCarousel" data-slide-to="5"><a href="#">IMPAGADOS<small></small></a>
-            </li>
-            <li data-target="#myCarousel" data-slide-to="6"><a href="#">CIVIL<small></small></a></li>
-            <li data-target="#myCarousel" data-slide-to="7"><a href="#">LABORAL<small></small></a>
-            </li>
-            <li data-target="#myCarousel" data-slide-to="8"><a href="#">PATRIMONIAL<small></small></a></li>
-            <li data-target="#myCarousel" data-slide-to="9"><a href="#">MEDIACIÓN<small></small></a>
-            </li>
-          </ul>
-        </div>
-        <!--  End Carousel  -->
-      </div>
-      <div>
-        <hr>
-<div class="container">
-      <div class="row">
-        <div class="col-xs-18 col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/icons/3.png">
-              <div class="caption">
-                <h4>Divorcios</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-18 col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/icons/11.png">
-              <div class="caption">
-                <h4>Penal</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-18 col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/icons/6.png">
-              <div class="caption">
-                <h4>Laboral</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-18 col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/icons/13.png">
-              <div class="caption">
-                <h4>Accidentes de Tráfico</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
-            </div>
-          </div>
-        </div>
-    </div><!--/row-->
-    <div class="row">
-      <div class="col-xs-18 col-sm-6 col-md-3">
-        <div class="thumbnail">
-          <img src="images/icons/12.png">
-            <div class="caption">
-              <h4>Civil</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-              <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-18 col-sm-6 col-md-3">
-        <div class="thumbnail">
-          <img src="images/icons/10.png">
-            <div class="caption">
-              <h4>Impagos</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-              <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-18 col-sm-6 col-md-3">
-        <div class="thumbnail">
-          <img src="images/icons/4.png">
-            <div class="caption">
-              <h4>Patrimonial</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-              <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-18 col-sm-6 col-md-3">
-        <div class="thumbnail">
-          <img src="images/icons/3.png">
-            <div class="caption">
-              <h4>Familiar</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-              <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div><!--/container -->
-      </div>
       <div class="map" id="localizacion">
         <h1 style="padding: 1.2em">Dónde Estamos</h1>
         <p><iframe itemprop="hasMap" style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.92229560776!2d-0.3814660839084238!3d39.47108412052732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c838a5d%3A0x8e12d7a464472964!2sCarrer+de+les+Garrigues%2C+17%2C+46001+Val%C3%A8ncia%2C+Valencia!5e0!3m2!1ses!2ses!4v1460710613745" onclick="style.pointerEvents='none'" allowfullscreen=""></iframe>
         </p>
       </div>
+      <div class="container" id="especialidades">
+        <h1 style="padding: 1.2em">Nuestras Especialidades</h1>
+        <div class="row">
+          <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="images/icons/3.png">
+                <div class="caption">
+                  <h4>Matrimonial</h4>
+                  <p>Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, divorcio, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
+                  <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="images/icons/11.png">
+                <div class="caption">
+                  <h4>Penal</h4>
+                  <p>Asistencia jurídica en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
+                  <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="images/icons/6.png">
+                <div class="caption">
+                  <h4>Laboral</h4>
+                  <p>Dentro de esta materia le ayudaremos a reclamar su indemnización por despido ante la jurisdicción Social y, en especial, la reclamación de lesiones dentro de esta rama.</p>
+                  <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="images/icons/13.png">
+                <div class="caption">
+                  <h4>Accidentes de Tráfico</h4>
+                  <p>Despacho dedicado durante más de veinte años a la reclamación de lesiones derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.</p>
+                  <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+              </div>
+            </div>
+          </div>
+      </div><!--/row-->
+      <div class="row">
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <img src="images/icons/12.png">
+              <div class="caption">
+                <h4>Civil</h4>
+                <p>Conociendo de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, herencia, sucesiones.</p>
+                <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <img src="images/icons/10.png">
+              <div class="caption">
+                <h4>Impagos</h4>
+                <p>Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y cobro de impagados.</p>
+                <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <img src="images/icons/4.png">
+              <div class="caption">
+                <h4>Patrimonial</h4>
+                <p>Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
+                <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <img src="images/icons/3.png">
+              <div class="caption">
+                <h4>Familiar</h4>
+                <p>Trámites y procesos de Adopción, Patria Potestad, Emancipación y demas temas Legales relacionados con el Derecho de Familia</p>
+                <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
       <div class="contact" id="contacto">
         <div class="container">
           <div id= 'before_send_email'>
             <h3 style="color:#373C40;">Contáctanos</h3>
+            <h4>Concierte una cita y consúltenos de forma totalmente gratuita y sin compromiso.</h4>
+            <hr>
             <div class="heading-underline"></div>
             <form id="formulario" class="contact_form" method="post">
               <div class="message">
@@ -473,13 +363,15 @@
               </address>
             </div>
             <div class="col-md-4 col-sm-4 footer-info-grid newsletter">
-              <h4>CONTÁCTANOS</h4>
-              <p>Puedes enviarnos un correo a nuestro correo electronico:
-              </p>
-              <li>
-                Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email" itemprop="email"> contacto@guarchabogados.com </span></a>
-              </li>
-              <p></p>
+              <div class="container" id="especialidades">
+                <h4>CONTÁCTANOS</h4>
+                <p>Puedes enviarnos un correo a nuestro correo electronico:
+                </p>
+                <li>
+                  Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email" itemprop="email"> contacto@guarchabogados.com </span></a>
+                </li>
+                <p></p>
+              </div>
             </div>
             <div class="SeoHiddenData">
               <span itemprop="url">http://www.guarchabogados.com</span>
