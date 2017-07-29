@@ -213,7 +213,7 @@
                 <div class="caption">
                   <h4>Matrimonial</h4>
                   <p>Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, divorcio, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
-                  <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Matrimonial')">Consultar</a>
               </div>
             </div>
           </div>
@@ -224,7 +224,7 @@
                 <div class="caption">
                   <h4>Penal</h4>
                   <p>Asistencia jurídica en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
-                  <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Penal')">Consultar</a>
               </div>
             </div>
           </div>
@@ -235,7 +235,7 @@
                 <div class="caption">
                   <h4>Laboral</h4>
                   <p>Dentro de esta materia le ayudaremos a reclamar su indemnización por despido ante la jurisdicción Social y, en especial, la reclamación de lesiones dentro de esta rama.</p>
-                  <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Laboral')">Consultar</a>
               </div>
             </div>
           </div>
@@ -246,86 +246,87 @@
                 <div class="caption">
                   <h4>Accidentes de Tráfico</h4>
                   <p>Despacho dedicado durante más de veinte años a la reclamación de lesiones derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.</p>
-                  <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Accidentes de Tráfico')">Consultar</a>
               </div>
             </div>
           </div>
       </div><!--/row-->
       <div class="row">
+
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
             <img src="images/icons/12.png">
               <div class="caption">
                 <h4>Civil</h4>
                 <p>Conociendo de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, herencia, sucesiones.</p>
-                <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+                <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Civil')">Consultar</a>
             </div>
           </div>
         </div>
+
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
             <img src="images/icons/10.png">
               <div class="caption">
                 <h4>Impagos</h4>
                 <p>Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y cobro de impagados.</p>
-                <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+                <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Impagos')">Consultar</a>
             </div>
           </div>
         </div>
+
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
             <img src="images/icons/4.png">
               <div class="caption">
                 <h4>Patrimonial</h4>
                 <p>Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
-                <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+                <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Patrimonial')">Consultar</a>
             </div>
           </div>
         </div>
+
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
             <img src="images/icons/3.png">
               <div class="caption">
                 <h4>Familiar</h4>
                 <p>Trámites y procesos de Adopción, Patria Potestad, Emancipación y demas temas Legales relacionados con el Derecho de Familia</p>
-                <a href="#" class="btn btn-default btn-md" role="button">Mas información</a>
+                <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Familiar')">Consultar</a>
             </div>
           </div>
         </div>
       </div>
+    </div>
       <hr>
-      <div class="contact" id="contacto">
-        <div class="container">
-          <div id= 'before_send_email'>
-            <h3 style="color:#373C40;">Contáctanos</h3>
-            <h4>Concierte una cita y consúltenos de forma totalmente gratuita y sin compromiso.</h4>
-            <hr>
-            <div class="heading-underline"></div>
-            <form id="formulario" class="contact_form" method="post">
-              <div class="message">
-                <div class="col-md-6 col-sm-6 grid_6 c1">
-                  <input type="text" name="name" class="text" placeholder="Nombre" required=""/>
-                  <input type="email" name="email" class="text" placeholder="Email" required=""/>
-                  <input type="number" name="telephone" class="text" placeholder="Telefono" required=""/>
-                </div>
-                <div class="col-md-6 col-sm-6 grid_6 c1">
-                  <textarea name="message" placeholder="Mensaje" required=""></textarea>
-                </div>
-                <div class="clearfix"></div>
-                <input type="submit" id="envio_email" class="more_btn" value="Enviar"/>
+      <div class="container" id="contacto">
+        <div id= 'before_send_email'>
+          <h3 style="color:#373C40;">Contáctanos</h3>
+          <h4 style="padding: 2em;">Concierte una cita y consúltenos de forma totalmente gratuita y sin compromiso.</h4>
+          <form id="formulario" class="contact_form" method="post">
+            <div class="message">
+              <div class="col-md-6 col-sm-6 grid_6 c1">
+                <input type="text" name="name" class="text" placeholder="Nombre" required=""/>
+                <input type="email" name="email" class="text" placeholder="Email" required=""/>
+                <input type="number" name="telephone" class="text" placeholder="Telefono" required=""/>
               </div>
-            </form>
-          </div>
-          <div id="meanwhile_send_email" style="display: none;">
-            <h2>Enviando</h2>
-            <hr>
-            <img id="spin_to_win" src="images/spinner.gif" alt="" max-width="50px" height="50px" />
-          </div>
-          <div id="after_send_email" style="display: none;">
-            <h2>Gracias por contactar con nosotros!</h2>
-            <hr>
-            <h4>Nos pondremos en contacto con usted lo antes posible</h4>
-          </div>
+              <div class="col-md-6 col-sm-6 grid_6 c1">
+                <textarea name="message" placeholder="Mensaje" id="mensaje_mail" required=""></textarea>
+              </div>
+              <div class="clearfix"></div>
+              <input type="submit" id="envio_email" class="more_btn" value="Enviar"/>
+            </div>
+          </form>
+        </div>
+        <div id="meanwhile_send_email" style="display: none;">
+          <h2>Enviando</h2>
+          <hr>
+          <img id="spin_to_win" src="images/spinner.gif" alt="" max-width="50px" height="50px" />
+        </div>
+        <div id="after_send_email" style="display: none;">
+          <h2>Gracias por contactar con nosotros!</h2>
+          <hr>
+          <h4>Nos pondremos en contacto con usted lo antes posible</h4>
         </div>
       </div>
       <div class="footer">
@@ -343,7 +344,7 @@
               <h4>DIRECCIÓN</h4>
               <address>
                 <ul>
-                  <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                  <div>
                     <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                       <li itemprop="streetAddress">
                         <span itemprop="streetAddress" itemprop="streetAddress"> Calle Garrigues nº17
@@ -399,6 +400,11 @@
 </html>
 
 <script type="text/javascript">
+function mail_con_asunto(tema) {
+    $("textarea#mensaje_mail").val("Consulta en referencia a " +tema+ ":");
+    location.hash = "textarea#mensaje_mail"
+    $("textarea#mensaje_mail").focus();
+}
 $("#formulario").submit(function(e) {
   var url = "mail.php";
 
