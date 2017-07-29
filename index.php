@@ -309,7 +309,98 @@
         </div>
         <!--  End Carousel  -->
       </div>
-      <!--  //About  -->
+      <div>
+        <hr>
+<div class="container">
+      <div class="row">
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <img src="images/icons/3.png">
+              <div class="caption">
+                <h4>Divorcios</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <img src="images/icons/11.png">
+              <div class="caption">
+                <h4>Penal</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <img src="images/icons/6.png">
+              <div class="caption">
+                <h4>Laboral</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <img src="images/icons/13.png">
+              <div class="caption">
+                <h4>Accidentes de Tráfico</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+            </div>
+          </div>
+        </div>
+    </div><!--/row-->
+    <div class="row">
+      <div class="col-xs-18 col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src="images/icons/12.png">
+            <div class="caption">
+              <h4>Civil</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+              <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-18 col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src="images/icons/10.png">
+            <div class="caption">
+              <h4>Impagos</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+              <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-18 col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src="images/icons/4.png">
+            <div class="caption">
+              <h4>Patrimonial</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+              <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-18 col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src="images/icons/3.png">
+            <div class="caption">
+              <h4>Familiar</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+              <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--/container -->
+      </div>
       <div class="map" id="localizacion">
         <h1 style="padding: 1.2em">Dónde Estamos</h1>
         <p><iframe itemprop="hasMap" style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.92229560776!2d-0.3814660839084238!3d39.47108412052732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c838a5d%3A0x8e12d7a464472964!2sCarrer+de+les+Garrigues%2C+17%2C+46001+Val%C3%A8ncia%2C+Valencia!5e0!3m2!1ses!2ses!4v1460710613745" onclick="style.pointerEvents='none'" allowfullscreen=""></iframe>
