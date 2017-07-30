@@ -344,18 +344,16 @@
               <h4>DIRECCIÓN</h4>
               <address>
                 <ul>
-                  <div>
-                    <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                      <li itemprop="streetAddress">
-                        <span itemprop="streetAddress" itemprop="streetAddress"> Calle Garrigues nº17
-                        <br/> 1er Piso, 2ª Puerta </span>
-                      </li>
-                      <li>
-                        <span itemprop="postalCode" itemprop="postalCode"> 46001</span>
-                        <span itemprop="addressLocality">Valencia</span>,
-                        <span itemprop="addressCountry">España</span>
-                    </span>
-                    </li></span>
+                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <li itemprop="streetAddress">
+                      <span itemprop="streetAddress" itemprop="streetAddress"> Calle Garrigues nº17
+                      <br/> 1er Piso, 2ª Puerta </span>
+                    </li>
+                    <li>
+                      <span itemprop="postalCode" itemprop="postalCode"> 46001</span>
+                      <span itemprop="addressLocality">Valencia</span>,
+                      <span itemprop="addressCountry">España</span>
+                    </li>
                     <li>
                       Teléfono: <span itemprop="telephone" itemprop="telephone">+34 961 047 508</span>
                     </li>
@@ -371,7 +369,6 @@
                 <li>
                   Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email" itemprop="email"> contacto@guarchabogados.com </span></a>
                 </li>
-                <p></p>
               </div>
             </div>
             <div class="SeoHiddenData">
@@ -379,10 +376,10 @@
               <span itemprop="alternateName">Guarch abogados valencia</span>
               <span itemprop="brand">Guarch abogados</span>
               <span itemprop="alumni" itemscope="" itemtype="http://schema.org/Person">
-              <span itemprop="name">Ricardo Guarch</span>
+                <span itemprop="name">Ricardo Guarch</span>
               </span>
               <span itemprop="alumni" itemscope="" itemtype="http://schema.org/Person">
-              <span itemprop="name">Alberto Guarch</span>
+                <span itemprop="name">Alberto Guarch</span>
               </span>
             </div>
             <div class="clearfix"></div>
