@@ -315,13 +315,14 @@
           <h4 style="padding: 2em;">Concierte una cita y consúltenos de forma totalmente gratuita y sin compromiso.</h4>
           <form id="formulario" class="contact_form" method="post">
             <div class="message">
-              <div class="col-md-6 col-sm-6 grid_6 c1">
-                <input type="text" name="name" class="text" placeholder="Nombre" required=""/>
-                <input type="email" name="email" class="text" placeholder="Email" required=""/>
-                <input type="number" name="telephone" class="text" placeholder="Telefono" required=""/>
+              <div class="col-md-8 col-sm-8 grid_8 c1">
+                <input type="text" name="asunto" class="text" placeholder="Asunto*" id="asunto_mail" required=""/>
+                <textarea name="message" placeholder="Su consulta*" required=""></textarea>
               </div>
-              <div class="col-md-6 col-sm-6 grid_6 c1">
-                <textarea name="message" placeholder="Mensaje" id="mensaje_mail" required=""></textarea>
+              <div class="col-md-4 col-sm-4 grid_4 c1">
+                <input type="text" name="name" class="text" placeholder="Nombre*" required=""/>
+                <input type="email" name="email" class="text" placeholder="Email*" required=""/>
+                <input type="number" name="telephone" class="text" placeholder="Tu telefono (no es obligatorio)"/>
               </div>
               <div class="clearfix"></div>
               <input type="submit" id="envio_email" class="more_btn" value="Enviar"/>
@@ -408,9 +409,9 @@
 
 <script type="text/javascript">
 function mail_con_asunto(tema) {
-    $("textarea#mensaje_mail").val("Consulta en referencia a " +tema+ ":");
-    location.hash = "textarea#mensaje_mail"
-    $("textarea#mensaje_mail").focus();
+    $("#asunto_mail").val("Consulta en referencia a " +tema);
+    location.hash = "textarea#asunto_mail"
+    $("#asunto_mail").focus();
 }
 $("#formulario").submit(function(e) {
   var url = "mail.php";

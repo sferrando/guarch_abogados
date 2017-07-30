@@ -9,6 +9,9 @@
 .navItem{
   margin-right: 1em;
 }
+#contacto{
+	padding: 2em;
+}
 
 #myCarousel .nav a {
     border-radius: 0px;
