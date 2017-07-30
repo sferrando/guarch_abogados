@@ -219,7 +219,7 @@
         <div class="row">
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/3.png">
+              <img src="images/icons/8.png">
                 <div class="caption">
                   <h4>Matrimonial</h4>
                   <p>Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, divorcio, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
