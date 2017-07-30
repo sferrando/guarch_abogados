@@ -317,7 +317,7 @@
             <div class="message">
               <div class="col-md-8 col-sm-8 grid_8 c1">
                 <input type="text" name="asunto" class="text" placeholder="Asunto*" id="asunto_mail" required=""/>
-                <textarea name="message" placeholder="Su consulta*" required=""></textarea>
+                <textarea name="message" placeholder="Escriba aquí su consulta...*" id="consulta_mail" required=""></textarea>
               </div>
               <div class="col-md-4 col-sm-4 grid_4 c1">
                 <input type="text" name="name" class="text" placeholder="Nombre*" required=""/>
@@ -409,9 +409,8 @@
 
 <script type="text/javascript">
 function mail_con_asunto(tema) {
-    $("#asunto_mail").val("Consulta en referencia a " +tema);
-    location.hash = "textarea#asunto_mail"
-    $("#asunto_mail").focus();
+    $("#asunto_mail").val("Consulta " +tema);
+    $("textarea#consulta_mail").focus();
 }
 $("#formulario").submit(function(e) {
   var url = "mail.php";
