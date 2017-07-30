@@ -219,7 +219,7 @@
         <div class="row">
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/8.png">
+              <img src="images/icons/8.png" rel="nofollow" alt="Derecho matrimonial icono">
                 <div class="caption">
                   <h4>Matrimonial</h4>
                   <p>Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, divorcio, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
@@ -230,7 +230,7 @@
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/11.png">
+              <img src="images/icons/11.png" rel="nofollow" alt="Derecho penal icono">
                 <div class="caption">
                   <h4>Penal</h4>
                   <p>Asistencia jurídica en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
@@ -241,7 +241,7 @@
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/6.png">
+              <img src="images/icons/6.png" rel="nofollow" alt="Derecho laboral icono">
                 <div class="caption">
                   <h4>Laboral</h4>
                   <p>Dentro de esta materia le ayudaremos a reclamar su indemnización por despido ante la jurisdicción Social y, en especial, la reclamación de lesiones dentro de esta rama.</p>
@@ -252,7 +252,7 @@
 
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-              <img src="images/icons/13.png">
+              <img src="images/icons/13.png" rel="nofollow" alt="Accidentes de Trafico icono">
                 <div class="caption">
                   <h4>Accidentes de Tráfico</h4>
                   <p>Despacho dedicado durante más de veinte años a la reclamación de lesiones derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.</p>
@@ -265,10 +265,10 @@
 
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
-            <img src="images/icons/12.png">
+            <img src="images/icons/12.png" rel="nofollow" alt="Derecho civil icono">
               <div class="caption">
                 <h4>Civil</h4>
-                <p>Conociendo de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, herencia, sucesiones.</p>
+                <p>Conociendo de la diversidad de materias que el derecho civil comprende, re rel="nofollow"saltamos entre ellas como especialidad en este ámbito, nacionalidad, herencia, sucesiones.</p>
                 <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Civil')">Consultar</a>
             </div>
           </div>
@@ -276,7 +276,7 @@
 
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
-            <img src="images/icons/10.png">
+            <img src="images/icons/10.png" rel="nofollow" alt="Impagos icono">
               <div class="caption">
                 <h4>Impagos</h4>
                 <p>Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y cobro de impagados.</p>
@@ -287,7 +287,7 @@
 
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
-            <img src="images/icons/4.png">
+            <img src="images/icons/4.png" rel="nofollow" alt="Derecho patrimonial icono">
               <div class="caption">
                 <h4>Patrimonial</h4>
                 <p>Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
@@ -298,7 +298,7 @@
 
         <div class="col-xs-18 col-sm-6 col-md-3">
           <div class="thumbnail">
-            <img src="images/icons/3.png">
+            <img src="images/icons/3.png" rel="nofollow" alt="Derecho familiar icono">
               <div class="caption">
                 <h4>Familiar</h4>
                 <p>Trámites y procesos de Adopción, Patria Potestad, Emancipación y demas temas Legales relacionados con el Derecho de Familia</p>
@@ -332,7 +332,7 @@
         <div id="meanwhile_send_email" style="display: none;">
           <h2>Enviando</h2>
           <hr>
-          <img id="spin_to_win" src="images/spinner.gif" alt="" max-width="50px" height="50px" />
+          <img id="spin_to_win" src="images/spinner.gif" alt="spinner" max-width="50px" height="50px" />
         </div>
         <div id="after_send_email" style="display: none;">
           <h2>Gracias por contactar con nosotros!</h2>
