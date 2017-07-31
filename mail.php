@@ -32,5 +32,9 @@
       <strong>Att. Alberto Guarch Brisa</strong>
       </div>
     </div>';
-mail(utf8_decode($info),utf8_decode($asunto),utf8_decode($mail_de_confirmacion),"FROM: $remitente, Content-Type: text/html; charset=UTF-8\r\n";);
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+$headers .= 'To: '.$_POST['name'] '<'.$_POST['email'].'>' . "\r\n";
+$headers .= 'From: Guarch Abogados <contacto@guarchabogados.com>' . "\r\n";
+mail(utf8_decode($info),utf8_decode($asunto),utf8_decode($mail_de_confirmacion), utf8_decode($headers));
 ?>
