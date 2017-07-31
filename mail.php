@@ -32,5 +32,5 @@
       <strong>Att. Alberto Guarch Brisa</strong>
       </div>
     </div>';
-mail(utf8_decode($info),utf8_decode($asunto),utf8_decode($mail_de_confirmacion),"FROM: $remitente");
+mail(utf8_decode($info),utf8_decode($asunto),utf8_decode($mail_de_confirmacion),"FROM: $remitente, Content-Type: text/html; charset=UTF-8\r\n";);
 ?>
