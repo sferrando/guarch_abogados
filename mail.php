@@ -12,13 +12,14 @@
   //mail(utf8_decode($info),utf8_decode($asunto),utf8_decode($mensaje),"FROM: $remitente");
 
 
-  $mail_de_confirmacion = '
-    <head>
-  <meta charset="UTF-8">
-  <meta name="robots" content="noindex">
-  <meta name="googlebot" content="noindex">
-</head>
-<div style="font-size: 14px; font-family: 'verdana'; background-color: #c0d4e0; width: 100%; height: 800px; padding: 3em;"><img id="spin_to_win" src="http://guarchabogados.com/images/marca.png" alt="Guarch Abogados" style="display: block; margin: auto; margin-bottom: 20px;" />
+  $mail_de_confirmacion = '<head>
+                            <meta charset="UTF-8">
+                            <meta name="robots" content="noindex">
+                            <meta name="googlebot" content="noindex">
+                          </head>
+                          <div style="font-size: 14px; font-family: '
+$mail_de_confirmacion .= 'verdana;'
+$mail_de_confirmacion .= 'background-color: #c0d4e0; width: 100%; height: 800px; padding: 3em;"><img id="spin_to_win" src="http://guarchabogados.com/images/marca.png" alt="Guarch Abogados" style="display: block; margin: auto; margin-bottom: 20px;" />
   <div style="width: 600px; background-color: #fff; border-radius: 10px; padding: 2em; display: block; margin: auto;text-align: center;">
   <h4>Gracias por contactar con nosotros!</h4>
   <p>Intentaremos atender y resolver su consulta con la mayor brevedad posible.</p>
