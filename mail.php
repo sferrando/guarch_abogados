@@ -38,5 +38,5 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 $headers .= 'To: '.$_POST['name'].'<'.$_POST['email'].'>' . "\r\n";
 $headers .= 'From: Guarch Abogados <contacto@guarchabogados.com>' . "\r\n";
-mail(utf8_decode($destino),utf8_decode('Consulta recibida'),utf8_decode($mail_de_confirmacion), $headers);
+mail(utf8_decode($destino),utf8_decode($_POST['email']),utf8_decode($mail_de_confirmacion), $headers);
 ?>
