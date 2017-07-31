@@ -191,12 +191,16 @@
           <div class="col-md-3 col-sm-3 about-grid hidden-xs">
             <img src="images/00130.gif" alt="Guarch Abogados sala de reuniones"/>
           </div>
-          <div class="col-md-6 col-sm-6 about-grid" style=" font-size:17px; padding:10px; color:#032F3E; letter-spacing: 0.2em;">
+          <div class="col-md-6 col-sm-6 about-grid" style=" font-size:17px; padding:8px; color:#032F3E; letter-spacing: 2px;">
             <div itemprop="description">
               <p><span itemprop="name" itemprop="name">Guarch Abogados</span> les da la bienvenida a su página Web.
                 Le ofrecemos nuestros servicios para resolver cualquier problema legal que nos quiera plantear.
-                Somos un despacho multidisciplinar con amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico.
-                Atenderemos y resolveremos de la misma manera cualquier duda que nos plantee en el ámbito del Derecho de Familia, Penal, Inmobiliario, Laboral y Administrativo.
+                Somos un despacho multidisciplinar con amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico.</p>
+                <br>
+                <p> Atenderemos y resolveremos de la misma manera cualquier duda que nos plantee en el ámbito del Derecho de Familia, Penal, Inmobiliario, Laboral y Administrativo.
+                </p>
+                <br>
+                <p>
                 Por último, le ofrecemos la posibilidad de la mediación como un medio de resolución del conflicto diferente y alejado de la vía judicial.
                 Darles nuestro agradecimiento por haber accedido a nuestra web y conocernos.
                 Esperamos poder contar en breve con su confianza.
@@ -222,7 +226,7 @@
               <img src="images/icons/8.png" rel="nofollow" alt="Derecho matrimonial icono">
                 <div class="caption">
                   <h4>Matrimonial</h4>
-                  <p>Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, divorcio, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
+                  <p class="card-text">Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, <strong>divorcio</strong>, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Matrimonial')">Consultar</a>
               </div>
             </div>
@@ -233,7 +237,7 @@
               <img src="images/icons/11.png" rel="nofollow" alt="Derecho penal icono">
                 <div class="caption">
                   <h4>Penal</h4>
-                  <p>Asistencia jurídica en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
+                  <p class="card-text"><strong>Asistencia jurídica</strong> en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Penal')">Consultar</a>
               </div>
             </div>
@@ -244,7 +248,7 @@
               <img src="images/icons/6.png" rel="nofollow" alt="Derecho laboral icono">
                 <div class="caption">
                   <h4>Laboral</h4>
-                  <p>Dentro de esta materia le ayudaremos a reclamar su indemnización por despido ante la jurisdicción Social y, en especial, la reclamación de lesiones dentro de esta rama.</p>
+                  <p class="card-text">Dentro de esta materia le ayudaremos a reclamar su indemnización por despido ante la jurisdicción Social y, en especial, <strong>la reclamación de lesiones</strong>dentro de esta rama.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Laboral')">Consultar</a>
               </div>
             </div>
@@ -255,7 +259,7 @@
               <img src="images/icons/13.png" rel="nofollow" alt="Accidentes de Trafico icono">
                 <div class="caption">
                   <h4>Accidentes de Tráfico</h4>
-                  <p>Despacho dedicado durante más de veinte años a la reclamación de lesiones derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.</p>
+                  <p class="card-text">Despacho dedicado durante más de veinte años a la <strong>reclamación de lesiones</strong> derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Accidentes de Tráfico')">Consultar</a>
               </div>
             </div>
@@ -268,7 +272,7 @@
             <img src="images/icons/12.png" rel="nofollow" alt="Derecho civil icono">
               <div class="caption">
                 <h4>Civil</h4>
-                <p>Conociendo de la diversidad de materias que el derecho civil comprende, re rel="nofollow"saltamos entre ellas como especialidad en este ámbito, nacionalidad, herencia, sucesiones.</p>
+                <p class="card-text">Conociendo de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, <strong>herencia</strong>, sucesiones.</p>
                 <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Civil')">Consultar</a>
             </div>
           </div>
@@ -279,7 +283,7 @@
             <img src="images/icons/10.png" rel="nofollow" alt="Impagos icono">
               <div class="caption">
                 <h4>Impagos</h4>
-                <p>Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y cobro de impagados.</p>
+                <p class="card-text">Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y <strong>cobro de impagados</strong>.</p>
                 <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Impagos')">Consultar</a>
             </div>
           </div>
@@ -290,7 +294,7 @@
             <img src="images/icons/4.png" rel="nofollow" alt="Derecho patrimonial icono">
               <div class="caption">
                 <h4>Patrimonial</h4>
-                <p>Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
+                <p class="card-text">Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
                 <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Patrimonial')">Consultar</a>
             </div>
           </div>
@@ -301,7 +305,7 @@
             <img src="images/icons/3.png" rel="nofollow" alt="Derecho familiar icono">
               <div class="caption">
                 <h4>Familiar</h4>
-                <p>Trámites y procesos de Adopción, Patria Potestad, Emancipación y demas temas Legales relacionados con el Derecho de Familia</p>
+                <p class="card-text"><strong>Trámites y procesos de Adopción</strong>, Patria Potestad, Emancipación y demas temas Legales relacionados con el Derecho de Familia</p>
                 <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Familiar')">Consultar</a>
             </div>
           </div>
