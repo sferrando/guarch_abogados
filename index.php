@@ -339,6 +339,7 @@
           <img id="spin_to_win" src="images/spinner.gif" alt="spinner" max-width="50px" height="50px" />
         </div>
         <div id="after_send_email" style="display: none;">
+          <img src="images/logo.png" alt="Guarch Abogados">
           <h2>Gracias por contactar con nosotros!</h2>
           <hr>
           <h4>Nos pondremos en contacto con usted lo antes posible</h4>
