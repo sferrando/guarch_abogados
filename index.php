@@ -193,16 +193,13 @@
           </div>
           <div class="col-md-6 col-sm-6 about-grid" style=" font-size:17px; padding:8px; color:#032F3E; letter-spacing: 2px;">
             <div itemprop="description">
-              <p><span itemprop="name" itemprop="name">Guarch Abogados</span> les da la bienvenida a su página Web.
-                Le ofrecemos nuestros servicios para resolver cualquier problema legal que nos quiera plantear.
-                Somos un despacho multidisciplinar con amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico.</p>
+              <p><span itemprop="name" itemprop="name">Guarch Abogados</span> es un despacho de abogados multidisciplinar localizado en el centro de Valencia.<br>
+                Gozamos de una amplia experiencia en la reclamación de lesiones y daños derivados de accidentes de tráfico, entre otras muchas <a href='#especialidades'>especialidades</a>.</p>
                 <br>
-                <p> Atenderemos y resolveremos de la misma manera cualquier duda que nos plantee en el ámbito del Derecho de Familia, Penal, Inmobiliario, Laboral y Administrativo.
-                </p>
+                <p> Estaremos encatados de atender y resolver <a href='#contacto'>cualquier consulta o duda que nos quiera plantear</a>.</p>
                 <br>
-                <p>
-                Por último, le ofrecemos la posibilidad de la mediación como un medio de resolución del conflicto diferente y alejado de la vía judicial.
-                Darles nuestro agradecimiento por haber accedido a nuestra web y conocernos.
+                <p>También recordarle que le ofrecemos la posibilidad de la mediación como un medio de resolución del conflicto diferente y alejado de la vía judicial.
+                Por ultimo, darles nuestro agradecimiento por haber accedido a nuestra web y conocernos.
                 Esperamos poder contar en breve con su confianza.
               </p>
             </div>
@@ -227,10 +224,7 @@
                 <div class="caption">
                   <h4>Cláusula suelo</h4>
                   <p class="card-text">
-                  Le llevamos su reclamacion de forma totalmente <strong>GRATUITA</strong>.
-                  <br>Reclamamos la nulidad de su <strong>cláusula suelo</strong> sin tener que abonar al despacho cuantía alguna.
-                  <br>
-                  El despacho solo se beneficiara en caso de que usted cobre.</p>
+                  Desde el despacho le llevamos su reclamación de la <strong>cláusula suelo</strong> así como todas las clausulas nulas de su hipoteca.<br> Nuestros abogados solo cobrarían si usted cobra</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Cláusula suelo')">Consultar</a>
               </div>
             </div>
@@ -251,7 +245,7 @@
               <img src="images/icons/11.png" rel="nofollow" alt="Derecho penal icono">
                 <div class="caption">
                   <h4>Penal</h4>
-                  <p class="card-text"><strong>Asistencia jurídica</strong> en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
+                  <p class="card-text">Nuestros abogados le otorgarán <strong>asistencia jurídica</strong> en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Penal')">Consultar</a>
               </div>
             </div>
@@ -262,7 +256,7 @@
               <img src="images/icons/6.png" rel="nofollow" alt="Derecho laboral icono">
                 <div class="caption">
                   <h4>Laboral</h4>
-                  <p class="card-text">Dentro de esta materia le ayudaremos a reclamar su indemnización por despido ante la jurisdicción Social y, en especial, <strong>la reclamación de lesiones</strong>dentro de esta rama.</p>
+                  <p class="card-text">Desde el despacho le ayudaremos en sus reclamaciones como la indemnización por despido ante la jurisdicción Social o <strong>la reclamación de lesiones</strong>.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Laboral')">Consultar</a>
               </div>
             </div>
@@ -275,7 +269,7 @@
               <img src="images/icons/12.png" rel="nofollow" alt="Derecho civil icono">
                 <div class="caption">
                   <h4>Civil</h4>
-                  <p class="card-text">Conociendo de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, <strong>herencia</strong>, sucesiones.</p>
+                  <p class="card-text">Nuestros abogados son conocedores de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, <strong>herencia</strong>, sucesiones.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Civil')">Consultar</a>
               </div>
             </div>
@@ -286,7 +280,7 @@
               <img src="images/icons/10.png" rel="nofollow" alt="Impagos icono">
                 <div class="caption">
                   <h4>Impagos</h4>
-                  <p class="card-text">Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y <strong>cobro de impagados</strong>.</p>
+                  <p class="card-text">El despacho le garantiza el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y <strong>cobro de impagados</strong>.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Impagos')">Consultar</a>
               </div>
             </div>
@@ -297,7 +291,7 @@
               <img src="images/icons/13.png" rel="nofollow" alt="Accidentes de Trafico icono">
                 <div class="caption">
                   <h4>Accidentes de Tráfico</h4>
-                  <p class="card-text">Despacho dedicado durante más de veinte años a la <strong>reclamación de lesiones</strong> derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.</p>
+                  <p class="card-text">Despacho especializado durante más de veinte años a la <strong>reclamación de lesiones</strong> derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Accidentes de Tráfico')">Consultar</a>
               </div>
             </div>
@@ -319,7 +313,7 @@
               <img src="images/icons/3.png" rel="nofollow" alt="Derecho familiar icono">
                 <div class="caption">
                   <h4>Familiar</h4>
-                  <p class="card-text"><strong>Trámites y procesos de Adopción</strong>, Patria Potestad, Emancipación y demas temas Legales relacionados con el Derecho de Familia</p>
+                  <p class="card-text">Nuestros abogados le asesorarán y llevarán los <strong>trámites y procesos de Adopción</strong>, Patria Potestad, Emancipación y demás temas Legales relacionados con el Derecho de Familia</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Familiar')">Consultar</a>
               </div>
             </div>
