@@ -221,6 +221,20 @@
       <div class="container" id="especialidades">
         <h1 style="padding: 1.2em">Nuestras Especialidades</h1>
         <div class="row">
+        <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="images/icons/4.png" rel="nofollow" alt="Clausula suelo">
+                <div class="caption">
+                  <h4>Cláusula suelo</h4>
+                  <p class="card-text">
+                  Le llevamos su reclamacion de forma totalmente <strong>GRATUITA</strong>.
+                  <br>Reclamamos la nulidad de su <strong>cláusula suelo</strong> sin tener que abonar al despacho cuantía alguna.
+                  <br>
+                  El despacho solo se beneficiara en caso de que usted cobre.</p>
+                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Cláusula suelo')">Consultar</a>
+              </div>
+            </div>
+          </div>
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
               <img src="images/icons/8.png" rel="nofollow" alt="Derecho matrimonial icono">
@@ -254,6 +268,30 @@
             </div>
           </div>
 
+        </div><!--/row-->
+        <div class="row">
+          <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="images/icons/12.png" rel="nofollow" alt="Derecho civil icono">
+                <div class="caption">
+                  <h4>Civil</h4>
+                  <p class="card-text">Conociendo de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, <strong>herencia</strong>, sucesiones.</p>
+                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Civil')">Consultar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="images/icons/10.png" rel="nofollow" alt="Impagos icono">
+                <div class="caption">
+                  <h4>Impagos</h4>
+                  <p class="card-text">Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y <strong>cobro de impagados</strong>.</p>
+                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Impagos')">Consultar</a>
+              </div>
+            </div>
+          </div>
+
           <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
               <img src="images/icons/13.png" rel="nofollow" alt="Accidentes de Trafico icono">
@@ -264,54 +302,30 @@
               </div>
             </div>
           </div>
-      </div><!--/row-->
-      <div class="row">
-
-        <div class="col-xs-18 col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/icons/12.png" rel="nofollow" alt="Derecho civil icono">
-              <div class="caption">
-                <h4>Civil</h4>
-                <p class="card-text">Conociendo de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, <strong>herencia</strong>, sucesiones.</p>
-                <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Civil')">Consultar</a>
+          <!--/Patrimonial
+          <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="images/icons/4.png" rel="nofollow" alt="Derecho patrimonial icono">
+                <div class="caption">
+                  <h4>Patrimonial</h4>
+                  <p class="card-text">Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
+                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Patrimonial')">Consultar</a>
+              </div>
             </div>
-          </div>
-        </div>
+          </div>-->
 
-        <div class="col-xs-18 col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/icons/10.png" rel="nofollow" alt="Impagos icono">
-              <div class="caption">
-                <h4>Impagos</h4>
-                <p class="card-text">Garantizamos el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y <strong>cobro de impagados</strong>.</p>
-                <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Impagos')">Consultar</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-18 col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/icons/4.png" rel="nofollow" alt="Derecho patrimonial icono">
-              <div class="caption">
-                <h4>Patrimonial</h4>
-                <p class="card-text">Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
-                <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Patrimonial')">Consultar</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-18 col-sm-6 col-md-3">
-          <div class="thumbnail">
-            <img src="images/icons/3.png" rel="nofollow" alt="Derecho familiar icono">
-              <div class="caption">
-                <h4>Familiar</h4>
-                <p class="card-text"><strong>Trámites y procesos de Adopción</strong>, Patria Potestad, Emancipación y demas temas Legales relacionados con el Derecho de Familia</p>
-                <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Familiar')">Consultar</a>
+          <div class="col-xs-18 col-sm-6 col-md-3">
+            <div class="thumbnail">
+              <img src="images/icons/3.png" rel="nofollow" alt="Derecho familiar icono">
+                <div class="caption">
+                  <h4>Familiar</h4>
+                  <p class="card-text"><strong>Trámites y procesos de Adopción</strong>, Patria Potestad, Emancipación y demas temas Legales relacionados con el Derecho de Familia</p>
+                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Familiar')">Consultar</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
       <hr>
       <div class="container" id="contacto">
         <div id= 'before_send_email'>
