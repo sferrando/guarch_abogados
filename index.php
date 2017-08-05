@@ -393,6 +393,10 @@
                 <li>
                   Email: <a class="mail" href="mailto:alberto@guarchabogados.com"><span itemprop="email" itemprop="email"> contacto@guarchabogados.com </span></a>
                 </li>
+                <li>
+                  <a href="tel:+34961047508"><img class="contact-icon" src="images/icons/phone-icon.png"></a>
+                  <a href="https://www.facebook.com/guarchabogados/"><img class="contact-icon" src="images/icons/FB-icon.png"></a>
+                </li>
               </div>
             </div>
             <div class="SeoHiddenData">

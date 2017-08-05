@@ -12,6 +12,11 @@
 #contacto{
 	padding: 2em;
 }
+.contact-icon{
+	margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
 
 #myCarousel .nav a {
     border-radius: 0px;
