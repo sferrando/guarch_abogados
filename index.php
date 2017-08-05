@@ -3,10 +3,10 @@
 <html class=" js csstransitions">
   <head>
     <meta name="google-site-verification" content="O5q5ZdeoEInRt6jL98cE7SFoS-5uL1boGcj95082_-0"/>
-    <title>Guarch Abogados | Valencia</title>
+    <title>Guarch Abogados | Despacho de abogados en Valencia</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="title" content="Guarch Abogados | Valencia"/>
-    <meta name="description" content="Bufete con amplia experiencia. Consúltanos sin compromiso y de forma gratuita."/>
+    <meta name="title" content="Guarch Abogados | Despacho de abogados en Valencia"/>
+    <meta name="description" content="Despacho de abogados en Valencia con amplia experiencia. Consúltanos sin compromiso y de forma gratuita."/>
     <meta name="keywords" content="Abogados Despacho Valencia Experiencia Trafico Lesiones Derecho Familia Penal Inmobiliario Laboral Administrativo Nulidad Matrimonial"/>
     <meta name="owner" content="guarchabogados.com"/>
     <meta name="geo.region" content="ES-VC" />
@@ -189,9 +189,9 @@
           </div>
         </div>
       </div>
-      <div class="about" id="sobre-nosotros" style="color:#032F3E">
+      <div class="about" id="sobre-nosotros" style="color:#032F3E;">
         <div class="container">
-          <h1> Sobre Nosotros </h1>
+          <h2 style="padding:2em;"> Sobre Nosotros </h2>
           <div class="col-md-3 col-sm-3 about-grid hidden-xs">
             <img src="images/00130.gif" alt="Guarch Abogados sala de reuniones"/>
           </div>
@@ -215,12 +215,12 @@
         </div>
       </div>
       <div class="map" id="localizacion">
-        <h1 style="padding: 1.2em">Dónde Estamos</h1>
+        <h2 style="padding: 1.2em">Dónde Estamos</h2>
         <p><iframe itemprop="hasMap" style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.92229560776!2d-0.3814660839084238!3d39.47108412052732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c838a5d%3A0x8e12d7a464472964!2sCarrer+de+les+Garrigues%2C+17%2C+46001+Val%C3%A8ncia%2C+Valencia!5e0!3m2!1ses!2ses!4v1460710613745" onclick="style.pointerEvents='none'" allowfullscreen=""></iframe>
         </p>
       </div>
       <div class="container" id="especialidades">
-        <h1 style="padding: 1.2em">Nuestras Especialidades</h1>
+        <h2 style="padding: 1.2em">Nuestras Especialidades</h2>
         <div class="row">
         <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
