@@ -9,6 +9,10 @@
     <meta name="description" content="Bufete con amplia experiencia. Consúltanos sin compromiso y de forma gratuita."/>
     <meta name="keywords" content="Abogados Despacho Valencia Experiencia Trafico Lesiones Derecho Familia Penal Inmobiliario Laboral Administrativo Nulidad Matrimonial"/>
     <meta name="owner" content="guarchabogados.com"/>
+    <meta name="geo.region" content="ES-VC" />
+    <meta name="geo.placename" content="Valencia" />
+    <meta name="geo.position" content="39.470941;-0.378796" />
+    <meta name="ICBM" content="39.470941, -0.378796" />
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://www.guarchabogados.com/index.php"/>
     <meta property="og:title" content="Guarch Abogados Valencia"/>
