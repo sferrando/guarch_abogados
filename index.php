@@ -328,8 +328,8 @@
           <ul class="lista-contacto">
             <li>Puede contactar con Guarch abogados:</li>
             <li>Realizando una consulta mediante nuestro formulario.</li>
-            <li>Llamando a nuestro <a href="tel:+34961047508"> telefono de contacto.</a></li>
-            <li>Acercandote a nuestras <a href="#localizacion"> oficinas</a> localizadas en el centro de Valencia.</li>
+            <li>Llamando a nuestro <a href="tel:+34961047508"> teléfono de contacto.</a></li>
+            <li>Acercándote a nuestras <a href="#localizacion"> oficinas</a> localizadas en el centro de Valencia.</li>
           </ul>
           <h4></h4>
           <form id="formulario" class="contact_form" method="post">
