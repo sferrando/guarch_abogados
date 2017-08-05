@@ -9,7 +9,7 @@
   $destino= "alberto@guarchabogados.com";
   $info= "info@guarchabogados.com";
   $remitente = $_POST['email'];
-  $asunto = "GA[".$_POST['name']."]".$_POST['asunto'];
+  $asunto = "GA[".$_POST['asunto']."] - ".$_POST['name'];
   mail(utf8_decode($destino),utf8_decode($asunto),utf8_decode($mensaje),"FROM: $remitente");
   mail(utf8_decode($info),utf8_decode($asunto),utf8_decode($mensaje),"FROM: $remitente");
 
