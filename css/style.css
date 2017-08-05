@@ -9,13 +9,38 @@
 .navItem{
   margin-right: 1em;
 }
-#contacto{
-	padding: 2em;
+#guarch_logo{
+	width: 150px;
+	height: auto;
+	float: left;
 }
+#contacto{
+	background-color: #DFDFDF;
+	margin-top: : 2em;
+	margin-bottom: 2em;
+	padding: 2em;
+
+	border-radius: 10px;
+}
+.texto-contacto{
+
+}
+.lista-contacto{
+	font-size: 1.2em;
+	margin-top: 2em;
+	margin-left: 13%;
+	padding: 1.2em;
+	margin-bottom: 2em;
+	list-style-type: none;
+}
+
 .contact-icon{
 	margin-top: 10px;
   width: 30px;
   height: 30px;
+}
+.caption h3{
+	padding: .5em !important;
 }
 
 #myCarousel .nav a {
@@ -32,7 +57,7 @@
     padding: 1.2em;
     color: #333;
     background-color: #C0D4E0;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 300px;
 }
 .card-text{
@@ -65,6 +90,7 @@ textarea::placeholder, input::placeholder {
   color: white;
 }
 #envio_email{
+	margin-top: 15px;
 	width: 150px;
 }
 #spin_to_win{
@@ -2065,13 +2091,13 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
- background-image: url("http://guarchabogados.com/images/0047u.png ");
+ background-image: url("../images/0047u.png");
 }
 .fade-carousel .slides .slide-2 {
- background-image: url("http://guarchabogados.com/images/0045u.png ");
+ background-image: url("../images/0045u.png");
 }
 .fade-carousel .slides .slide-3 {
- background-image: url("http://guarchabogados.com/images/0066u.png ");
+ background-image: url("../images/0066u.png");
 }
 
 /********************************/

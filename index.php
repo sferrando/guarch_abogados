@@ -38,7 +38,7 @@
         "url": "http://www.guarchabogados.com/",
         "telephone" : "+34 961 047 508",
         "email" : "contacto@guarchabogados.com",
-        "logo": "http://guarchabogados.com/images/logo.png",
+        "logo": "http://guarchabogados.com/images/logo-min.png",
         "image": "http://guarchabogados.com/images/logo.png",
         "address": {
           "@type": "PostalAddress",
@@ -222,7 +222,7 @@
             <div class="thumbnail">
               <img src="images/icons/4.png" rel="nofollow" alt="Clausula suelo">
                 <div class="caption">
-                  <h4>Cláusula suelo</h4>
+                  <h3>Cláusula suelo</h3>
                   <p class="card-text">
                   Desde el despacho le llevamos su reclamación de la <strong>cláusula suelo</strong> así como todas las clausulas nulas de su hipoteca.<br> Nuestros abogados solo cobrarían si usted cobra</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Cláusula suelo')">Consultar</a>
@@ -233,7 +233,7 @@
             <div class="thumbnail">
               <img src="images/icons/8.png" rel="nofollow" alt="Derecho matrimonial icono">
                 <div class="caption">
-                  <h4>Matrimonial</h4>
+                  <h3>Matrimonial</h3>
                   <p class="card-text">Despacho con especialidad contrastada en derecho matrimonial en todos sus ámbitos: separación, <strong>divorcio</strong>, modificación de medidas, aspectos relativos a la filiación régimen económico matrimonial y liquidación de sociedades conyugales</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Matrimonial')">Consultar</a>
               </div>
@@ -244,7 +244,7 @@
             <div class="thumbnail">
               <img src="images/icons/11.png" rel="nofollow" alt="Derecho penal icono">
                 <div class="caption">
-                  <h4>Penal</h4>
+                  <h3>Penal</h3>
                   <p class="card-text">Nuestros abogados le otorgarán <strong>asistencia jurídica</strong> en Comisaría, Juzgados, Juzgados de Guardia, declaraciones, asesoramiento y dirección técnica a lo largo de la Instrucción incluida vista oral.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Penal')">Consultar</a>
               </div>
@@ -255,7 +255,7 @@
             <div class="thumbnail">
               <img src="images/icons/6.png" rel="nofollow" alt="Derecho laboral icono">
                 <div class="caption">
-                  <h4>Laboral</h4>
+                  <h3>Laboral</h3>
                   <p class="card-text">Desde el despacho le ayudaremos en sus reclamaciones como la indemnización por despido ante la jurisdicción Social o <strong>la reclamación de lesiones</strong>.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Laboral')">Consultar</a>
               </div>
@@ -268,7 +268,7 @@
             <div class="thumbnail">
               <img src="images/icons/12.png" rel="nofollow" alt="Derecho civil icono">
                 <div class="caption">
-                  <h4>Civil</h4>
+                  <h3>Civil</h3>
                   <p class="card-text">Nuestros abogados son conocedores de la diversidad de materias que el derecho civil comprende, resaltamos entre ellas como especialidad en este ámbito, nacionalidad, <strong>herencia</strong>, sucesiones.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Civil')">Consultar</a>
               </div>
@@ -279,7 +279,7 @@
             <div class="thumbnail">
               <img src="images/icons/10.png" rel="nofollow" alt="Impagos icono">
                 <div class="caption">
-                  <h4>Impagos</h4>
+                  <h3>Impagos</h3>
                   <p class="card-text">El despacho le garantiza el asesoramiento y dirección técnica por nuestros abogados en esta materia. De este modo, asistimos tanto a empresas como a particulares en relación a la gestión y <strong>cobro de impagados</strong>.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Impagos')">Consultar</a>
               </div>
@@ -290,9 +290,9 @@
             <div class="thumbnail">
               <img src="images/icons/13.png" rel="nofollow" alt="Accidentes de Trafico icono">
                 <div class="caption">
-                  <h4>Accidentes de Tráfico</h4>
-                  <p class="card-text">Despacho especializado durante más de veinte años a la <strong>reclamación de lesiones</strong> derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica a lo largo de todo el procedimiento.</p>
-                  <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Accidentes de Tráfico')">Consultar</a>
+                  <h3  style="margin-top: -15px;">Accidentes de Tráfico</h3>
+                  <p class="card-text">Despacho especializado durante más de veinte años en <strong>reclamación de lesiones</strong> derivadas de accidentes de tráfico. Garantizándoles el asesoramiento y dirección técnica durante el procedimiento.</p>
+                  <a class="btn btn-default btn-md" style="margin-top: 0px;" role="button" onclick="mail_con_asunto('Accidentes de Tráfico')">Consultar</a>
               </div>
             </div>
           </div>
@@ -301,7 +301,7 @@
             <div class="thumbnail">
               <img src="images/icons/4.png" rel="nofollow" alt="Derecho patrimonial icono">
                 <div class="caption">
-                  <h4>Patrimonial</h4>
+                  <h3>Patrimonial</h3>
                   <p class="card-text">Reclamación de los perjuicios sufridos por daños materiales y lesiones frente a la Administración Pública.</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Patrimonial')">Consultar</a>
               </div>
@@ -312,7 +312,7 @@
             <div class="thumbnail">
               <img src="images/icons/3.png" rel="nofollow" alt="Derecho familiar icono">
                 <div class="caption">
-                  <h4>Familiar</h4>
+                  <h3>Familiar</h3>
                   <p class="card-text">Nuestros abogados le asesorarán y llevarán los <strong>trámites y procesos de Adopción</strong>, Patria Potestad, Emancipación y demás temas Legales relacionados con el Derecho de Familia</p>
                   <a class="btn btn-default btn-md" role="button" onclick="mail_con_asunto('Familiar')">Consultar</a>
               </div>
@@ -323,8 +323,15 @@
       <hr>
       <div class="container" id="contacto">
         <div id= 'before_send_email'>
-          <h3 style="color:#373C40;">Contáctanos</h3>
-          <h4 style="padding: 2em;">Concierte una cita y consúltenos de forma totalmente gratuita y sin compromiso.</h4>
+          <h2 style="color:#373C40;">Contáctanos</h2>
+          <img id="guarch_logo" src="images/logo-min.png" alt="Guarch Abogados logo"/>
+          <ul class="lista-contacto">
+            <li>Puede contactar con Guarch abogados:</li>
+            <li>Realizando una consulta mediante nuestro formulario.</li>
+            <li>Llamando a nuestro <a href="tel:+34961047508"> telefono de contacto.</a></li>
+            <li>Acercandote a nuestras <a href="#localizacion"> oficinas</a> localizadas en el centro de Valencia.</li>
+          </ul>
+          <h4></h4>
           <form id="formulario" class="contact_form" method="post">
             <div class="message">
               <div class="col-md-8 col-sm-8 grid_8 c1">
