@@ -216,7 +216,7 @@
       </div>
       <div class="map" id="localizacion">
         <h2 style="padding: 1.2em">Dónde Estamos</h2>
-        <p><iframe itemprop="hasMap" style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.92229560776!2d-0.3814660839084238!3d39.47108412052732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c838a5d%3A0x8e12d7a464472964!2sCarrer+de+les+Garrigues%2C+17%2C+46001+Val%C3%A8ncia%2C+Valencia!5e0!3m2!1ses!2ses!4v1460710613745" onclick="style.pointerEvents='none'" allowfullscreen=""></iframe>
+        <p class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.922478917067!2d-0.381466084632598!3d39.471079979486206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c85b2e1%3A0x26ea0be400a35866!2sGuarch+Abogados+-+Valencia!5e0!3m2!1ses!2ses!4v1501970684973" frameborder="0" style="border:0" allowfullscreen></iframe>
         </p>
       </div>
       <div class="container" id="especialidades">
@@ -371,7 +371,7 @@
               <h4>ENCUÉNTRANOS</h4>
               <ul>
                 <div class="contact-bottom" style="padding-bottom:2em">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.92229560776!2d-0.3814660839084238!3d39.47108412052732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c838a5d%3A0x8e12d7a464472964!2sCarrer+de+les+Garrigues%2C+17%2C+46001+Val%C3%A8ncia%2C+Valencia!5e0!3m2!1ses!2ses!4v1460710613745" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.922478917067!2d-0.381466084632598!3d39.471079979486206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c1c85b2e1%3A0x26ea0be400a35866!2sGuarch+Abogados+-+Valencia!5e0!3m2!1ses!2ses!4v1501970684973"  frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
               </ul>
             </div>
@@ -407,6 +407,7 @@
                 <li>
                   <a href="tel:+34961047508"><img class="contact-icon" src="images/icons/phone-icon.png"></a>
                   <a href="https://www.facebook.com/guarchabogados/"><img class="contact-icon" src="images/icons/fb-icon.png"></a>
+                  <a href="https://www.google.es/maps/place/Guarch+Abogados+-+Valencia/@39.47108,-0.3814661,17z/data=!3m1!4b1!4m5!3m4!1s0xd604f4c1c85b2e1:0x26ea0be400a35866!8m2!3d39.47108!4d-0.3792774"><img class="contact-icon" src="images/icons/map-icon.png"></a>
                 </li>
               </div>
             </div>
@@ -459,5 +460,13 @@ $("#formulario").submit(function(e) {
         });
 
   e.preventDefault();
+});
+
+$('.maps').click(function () {
+    $('.maps iframe').css("pointer-events", "auto");
+});
+
+$( ".maps" ).mouseleave(function() {
+  $('.maps iframe').css("pointer-events", "none");
 });
 </script>
