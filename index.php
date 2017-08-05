@@ -406,7 +406,7 @@
                 </li>
                 <li>
                   <a href="tel:+34961047508"><img class="contact-icon" src="images/icons/phone-icon.png"></a>
-                  <a href="https://www.facebook.com/guarchabogados/"><img class="contact-icon" src="images/icons/FB-icon.png"></a>
+                  <a href="https://www.facebook.com/guarchabogados/"><img class="contact-icon" src="images/icons/fb-icon.png"></a>
                 </li>
               </div>
             </div>
