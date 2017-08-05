@@ -125,8 +125,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a itemprop="name" class="navbar-brand" style=" margin-left:5px; font-family:'OptimusPrinceps';font-weight:normal" href="#">
-            GUARCH <span style="font-size:29px; color:#575757">  |  ABOGADOS</span></a>
+            <h1><a href="./" itemprop="name" class="navbar-brand" style=" margin-left:5px; font-family:'OptimusPrinceps';font-weight:normal" href="#">
+            GUARCH <span style="font-size:29px; color:#575757">  |  ABOGADOS</span></a></h1>
           </div>
           <div class="navbar-collapse collapse" id="navbar">
             <ul>
@@ -142,33 +142,33 @@
           </div>
         </div>
       </nav>
-      <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+      <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="5000" id="bs-carousel">
         <!--  Overlay  -->
         <div class="overlay"></div>
         <!--  Indicators  -->
         <ol class="carousel-indicators">
-          <li data-target="#bs-carousel" data-slide-to="0" class=""></li>
-          <li data-target="#bs-carousel" data-slide-to="1" class="active"></li>
-          <li data-target="#bs-carousel" data-slide-to="2"></li>
+          <li data-target="#bs-carousel" data-slide-to="2" class="active"></li>
+          <li data-target="#bs-carousel" data-slide-to="3" class=""></li>
+          <li data-target="#bs-carousel" data-slide-to="1" class=""></li>
         </ol>
         <!--  Wrapper for slides  -->
         <div class="carousel-inner">
-          <div class="item slides">
+          <div class="item slides active">
             <div class="slide-1"></div>
             <div class="hero">
               <hgroup>
                 <img itemprop="logo" style="max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
-                <h3>SOMOS LA SOLUCIÓN</h3>
+                <h2>Sus abogados en Valencia</h2>
               </hgroup>
               <a href="#contacto"> <button class="btn btn-hero btn-lg" role="button">Consúltanos gratis</button></a>
             </div>
           </div>
-          <div class="item slides active">
+          <div class="item slides">
             <div class="slide-2"></div>
             <div class="hero">
               <hgroup>
                 <img itemprop="image" itemprop="image" style="max-width: 100%; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
-                <h3>NOS ESFORZAMOS POR TÍ</h3>
+                <h2>Despacho multidisciplinar</h2>
               </hgroup>
               <a href="#localizacion"> <button class="btn btn-hero btn-lg" role="button">Nuestras oficinas</button></a>
             </div>
@@ -178,7 +178,7 @@
             <div class="hero">
               <hgroup>
                 <img style="max-width: 100% ; margin-bottom:15px" src="images/logoW.png" alt="Guarch Abogados logo"/>
-                <h3>TU MEJOR opción</h3>
+                <h2>Consúltanos gratis</h2>
               </hgroup>
               <a href="#contacto"> <button class="btn btn-hero btn-lg" role="button">Ir al formulario</button></a>
             </div>
