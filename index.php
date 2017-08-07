@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="title" content="Guarch Abogados | Despacho de abogados en Valencia"/>
     <meta name="description" content="Despacho de abogados en Valencia con amplia experiencia. Consúltanos sin compromiso y de forma gratuita."/>
-    <meta name="keywords" content="Abogados Despacho Valencia Experiencia Trafico Lesiones Derecho Familia Penal Inmobiliario Laboral Administrativo Nulidad Matrimonial"/>
+    <meta name="keywords" content="abogados, Despacho abogados Valencia, abogados experiencia, abogado divorcio, abogado trafico, abogado lesiones, abogado derecho familia, abogado penal, abogado inmobiliario, abogado laboral abogado administrativo, abogado nulidad matrimonial"/>
     <meta name="owner" content="guarchabogados.com"/>
     <meta name="geo.region" content="ES-VC" />
     <meta name="geo.placename" content="Valencia" />
